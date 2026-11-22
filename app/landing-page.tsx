@@ -17,21 +17,30 @@ export function LandingPage() {
       className={"hero-copy reveal"}>
             <span
       className={"label"}>
-              {"Cross-border trade coordination"}
+              {"International trade coordination"}
             </span>
             <h1>
-              {"The Middle of Trade"}
+              {"The missing link between "}
+              <span className={"emphasis"}>
+                {"trade ambition"}
+              </span>
+              {" and execution."}
             </h1>
             <p
       className={"lead"}>
-              {"GlobxLink works in the operational middle between agreement and delivery — helping businesses bring structure, visibility, and better coordination to cross-border trade."}
+              {"GlobxLink is positioned around the operational middle of international trade, helping businesses bring structure, visibility, and better coordination to what happens between agreement and delivery."}
             </p>
             <div
       className={"hero-actions"}>
               <a
       className={"btn primary gxl-trade-cta"}
       href={"/trade-coordination/"}>
-                {"Discuss Your Trade Requirement ↗"}
+                {"Start Trade Coordination ↗"}
+              </a>
+              <a
+      className={"btn secondary"}
+      href={"#platform"}>
+                {"Explore the Platform ↗"}
               </a>
               <a
       className={"btn secondary"}
@@ -68,22 +77,49 @@ export function LandingPage() {
             <div
       className={"globe-head"}>
               <strong>
-                {"Africa ↔ Türkiye corridor"}
+                {"Compare our globes"}
               </strong>
+              <div
+      aria-label={"Globe styles"}
+      className={"globe-switch"}
+      role={"tablist"}>
+                <button
+      aria-controls={"globe-tactical"}
+      aria-selected={"false"}
+      className={"globe-tab"}
+      data-globe={"tactical"}
+      id={"tab-tactical"}
+      role={"tab"}
+      type={"button"}>
+                  {"Tactical"}
+                </button>
+                <button
+      aria-controls={"globe-interactive"}
+      aria-selected={"true"}
+      className={"globe-tab"}
+      data-globe={"interactive"}
+      id={"tab-interactive"}
+      role={"tab"}
+      type={"button"}>
+                  {"Interactive"}
+                </button>
+              </div>
             </div>
             <div
       className={"globe-viewport"}>
               <div
-      aria-hidden={"true"}
       className={"globe-screen"}
       id={"globe-tactical"}
-      hidden>
+      role={"tabpanel"}
+      aria-labelledby={"tab-tactical"}>
                 <canvas
+      aria-label={"Tactical globe showing trade connections; drag to rotate"}
       id={"canvas-tactical"}></canvas>
               </div>
               <div
       className={"globe-screen current"}
       id={"globe-interactive"}
+      aria-labelledby={"tab-interactive"}
       role={"tabpanel"}>
                 <canvas
       aria-label={"Interactive globe showing trade connections; drag to rotate"}
@@ -144,7 +180,7 @@ export function LandingPage() {
             </div>
             <p
       className={"section-desc"}>
-              {"Four questions that shape cross-border trade — from the first conversation through the unexpected."}
+              {"Four questions that shape international trade, from the first conversation through the unexpected."}
             </p>
           </div>
           <div
@@ -266,7 +302,7 @@ export function LandingPage() {
               {"Two ways in. One coordinated path."}
             </h2>
             <p className={"section-desc"}>
-              {"Most trade work starts with one of two needs — getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for an end-to-end transaction; choose a Provider Request when you only need to find or check a provider."}
+              {"Most trade work starts with one of two needs, getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for a full transaction; choose a Provider Request when you only need to find or check a provider."}
             </p>
           </div>
           <div className={"service-offer-grid"}>
@@ -276,7 +312,7 @@ export function LandingPage() {
               </span>
               <h3>{"Trade Readiness & Coordination Assessment"}</h3>
               <p>
-                {"A structured review of one cross-border transaction before you commit further."}
+                {"A structured review of one international transaction before you commit further."}
               </p>
               <ul>
                 <li>{"Clarify what is confirmed, unconfirmed, and exposed"}</li>
@@ -368,7 +404,7 @@ export function LandingPage() {
                     {"Commercial expectation clarification"}
                   </li>
                   <li>
-                    {"Corridor-specific market intelligence"}
+                    {"Intelligence focused on this corridor"}
                   </li>
                 </ul>
               </div>
@@ -407,7 +443,7 @@ export function LandingPage() {
                 <ul
       className={"process-list"}>
                   <li>
-                    {"Payment-milestone mapping — buyer and supplier define terms; GlobxLink does not hold or move funds"}
+                    {"Payment milestone mapping, buyer and supplier define terms; GlobxLink does not hold or move funds"}
                   </li>
                   <li>
                     {"Commercial terms and responsibilities"}
@@ -455,16 +491,16 @@ export function LandingPage() {
                 <ul
       className={"process-list"}>
                   <li>
-                    {"Production follow-up"}
+                    {"Production follow up"}
                   </li>
                   <li>
                     {"Quality and quantity checkpoints, with the parties or an appointed inspector"}
                   </li>
                   <li>
-                    {"Shipment-readiness confirmation"}
+                    {"Shipment readiness confirmation"}
                   </li>
                   <li>
-                    {"On-the-ground coordination where arranged"}
+                    {"On site coordination where arranged"}
                   </li>
                 </ul>
               </div>
@@ -512,7 +548,7 @@ export function LandingPage() {
                     {"Logistics coordination"}
                   </li>
                   <li>
-                    {"Cross-border continuity management"}
+                    {"International continuity management"}
                   </li>
                 </ul>
               </div>
@@ -522,7 +558,7 @@ export function LandingPage() {
                   {"OUTCOME"}
                 </small>
                 <p>
-                  {"Problems become manageable instead of relationship-breaking."}
+                  {"Problems become manageable instead of damaging to relationships."}
                 </p>
               </div>
             </article>
@@ -656,7 +692,7 @@ export function LandingPage() {
                 {"Medical Supplies & Healthcare Products"}
               </h3>
               <p>
-                {"Medical consumables, equipment, and healthcare-related procurement. Compliance and reliability matter."}
+                {"Medical consumables, equipment, and healthcare procurement. Compliance and reliability matter."}
               </p>
             </article>
           </div>
@@ -680,7 +716,7 @@ export function LandingPage() {
               {"Coordinating the space between markets."}
             </h2>
             <p>
-              {"Our initial commercial focus is the Africa–Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible."}
+              {"Our initial commercial focus is the Africa to Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible."}
             </p>
             <div
       className={"corridor-tags"}>
@@ -691,16 +727,16 @@ export function LandingPage() {
                 {"China · Broader trade context"}
               </span>
               <span>
-                {"Cross-border coordination"}
+                {"International coordination"}
               </span>
             </div>
           </div>
           <div
-      aria-label={"Trade corridor illustration for Africa, Türkiye, and China, with Africa–Türkiye as the initial focus"}
+      aria-label={"Trade corridor illustration for Africa, Türkiye, and China, with Africa to Türkiye as the initial focus"}
       className={"corridor-art reveal"}
       style={{"--delay": "120ms"} as CSSProperties}>
             <img
-      alt={"Trade connections across Africa, Türkiye, and China; initial focus is Africa–Türkiye"}
+      alt={"Trade connections across Africa, Türkiye, and China; initial focus is Africa to Türkiye"}
       className={"corridor-feature-image"}
       decoding={"async"}
       height={482}
@@ -723,7 +759,7 @@ export function LandingPage() {
             </span>
             <h2
       className={"section-title"}>
-              {"How coordination works — a concept view."}
+              {"How coordination works, a concept view."}
             </h2>
             <p
       className={"section-desc"}>
@@ -776,7 +812,7 @@ export function LandingPage() {
             </h2>
             <p
       className={"section-desc"}>
-              {"From the first request to execution follow-up, each stage has a clear purpose and set of decisions."}
+              {"From the first request to execution follow up, each stage has a clear purpose and set of decisions."}
             </p>
           </div>
           <div
@@ -833,7 +869,7 @@ export function LandingPage() {
                 {"Handle exceptions"}
               </h3>
               <p>
-                {"Identify deviations early and create a defined path for follow-up."}
+                {"Identify deviations early and create a defined path for follow up."}
               </p>
             </article>
           </div>
@@ -846,7 +882,7 @@ export function LandingPage() {
           <div className={"section-head reveal"}>
             <span className={"label"}>{"Insights"}</span>
             <h2 className={"section-title"}>
-              {"Practical questions for cross-border buyers."}
+              {"Practical questions for international buyers."}
             </h2>
             <p className={"section-desc"}>
               {"Clear, useful starting points for evaluating providers and preparing a transaction."}
@@ -857,7 +893,7 @@ export function LandingPage() {
               <span>{"BUYER CHECKLIST"}</span>
               <h3>{"What should buyers check before paying an overseas supplier?"}</h3>
               <p>
-                {"Build a practical pre-payment review around identity, evidence, terms, documents, and agreed checkpoints."}
+                {"Build a practical prepayment review around identity, evidence, terms, documents, and agreed checkpoints."}
               </p>
               <a href={"/insights/buyers-before-paying/"}>
                 {"Read the article →"}
@@ -909,10 +945,10 @@ export function LandingPage() {
               </h2>
               <p
       className={"section-desc"}>
-                {"We started GlobxLink to address the operational realities of cross-border trade through practical coordination and clearer handoffs."}
+                {"We started GlobxLink to address the operational realities of international trade through practical coordination and clearer handoffs."}
               </p>
               <p className={"team-context"}>
-                {"A team of six across China, Türkiye, and Africa — plus remote engineering — with people joining as we partner and hire."}
+                {"A team of six across China, Türkiye, and Africa, plus remote engineering, with people joining as we partner and hire."}
               </p>
             </div>
           </div>
@@ -951,12 +987,12 @@ export function LandingPage() {
                 </p>
                 <p
       className={"founder-biography"}>
-                  {"Founder focused on facilitating cross-border trade between African and Turkish businesses, coordinating supplier interactions and day-to-day execution across language, culture, and operational complexity."}
+                  {"Founder focused on facilitating international trade between African and Turkish businesses, coordinating supplier interactions and daily execution across language, culture, and operational complexity."}
                 </p>
                 <div
       className={"founder-socials"}>
                   <a
-      aria-label={"Abdelhafiz \"Abdoo\" — LinkedIn"}
+      aria-label={"Abdelhafiz \"Abdoo\", LinkedIn"}
       href={"https://www.linkedin.com/in/abdelhafiz-mahfouz-ali-terab-423b25149"}
       rel={"noopener noreferrer"}
       target={"_blank"}
@@ -972,7 +1008,7 @@ export function LandingPage() {
                     </svg>
                   </a>
                   <a
-      aria-label={"Abdelhafiz \"Abdoo\" — Email"}
+      aria-label={"Abdelhafiz \"Abdoo\", Email"}
       href={"mailto:partnerships@globxlink.com?subject=Message%20for%20Abdelhafiz%20%22Abdoo%22"}
       title={"Email"}>
                     <svg
@@ -994,7 +1030,7 @@ export function LandingPage() {
                     </svg>
                   </a>
                   <a
-      aria-label={"Abdelhafiz \"Abdoo\" — X"}
+      aria-label={"Abdelhafiz \"Abdoo\", X"}
       href={"https://x.com/abboodi36?s=11"}
       rel={"noopener noreferrer"}
       target={"_blank"}
@@ -1034,19 +1070,19 @@ export function LandingPage() {
       className={"founder-copy"}>
                 <span
       className={"founder-role"}>
-                  {"Co-Founder"}
+                  {"Cofounder"}
                 </span>
                 <h3>
                   {"Abdul Nasir"}
                 </h3>
                 <p
       className={"founder-biography"}>
-                  {"Product engineer leading the design of the GlobxLink coordination-workspace concept — milestone structure, documentation flow, and partner integrations. Background in financial-services systems where settlement evidence is non-negotiable."}
+                  {"Product engineer leading the design of the GlobxLink coordination workspace concept, milestone structure, documentation flow, and partner integrations. Background in financial services systems where settlement evidence is essential."}
                 </p>
                 <div
       className={"founder-socials"}>
                   <a
-      aria-label={"Abdul Nasir — LinkedIn"}
+      aria-label={"Abdul Nasir, LinkedIn"}
       href={"https://www.linkedin.com/in/abdul-nasirv/"}
       rel={"noopener noreferrer"}
       target={"_blank"}
@@ -1062,7 +1098,7 @@ export function LandingPage() {
                     </svg>
                   </a>
                   <a
-      aria-label={"Abdul Nasir — Email"}
+      aria-label={"Abdul Nasir, Email"}
       href={"mailto:partnerships@globxlink.com?subject=Message%20for%20Abdul%20Nasir"}
       title={"Email"}>
                     <svg
@@ -1084,7 +1120,7 @@ export function LandingPage() {
                     </svg>
                   </a>
                   <a
-      aria-label={"Abdul Nasir — X"}
+      aria-label={"Abdul Nasir, X"}
       href={"https://x.com/NasrUlZainAzran"}
       rel={"noopener noreferrer"}
       target={"_blank"}
@@ -1126,7 +1162,7 @@ export function LandingPage() {
       className={"founder-copy"}>
                 <span
       className={"founder-role"}>
-                  {"Co-Founder"}
+                  {"Cofounder"}
                 </span>
                 <h3>
                   {"Santhosh Patel"}
@@ -1138,7 +1174,7 @@ export function LandingPage() {
                 <div
       className={"founder-socials"}>
                   <a
-      aria-label={"Santhosh Patel — LinkedIn"}
+      aria-label={"Santhosh Patel, LinkedIn"}
       href={"https://www.linkedin.com/in/santhosh-patel/"}
       rel={"noopener noreferrer"}
       target={"_blank"}
@@ -1154,7 +1190,7 @@ export function LandingPage() {
                     </svg>
                   </a>
                   <a
-      aria-label={"Santhosh Patel — Email"}
+      aria-label={"Santhosh Patel, Email"}
       href={"mailto:partnerships@globxlink.com?subject=Message%20for%20Santhosh%20Patel"}
       title={"Email"}>
                     <svg
@@ -1198,7 +1234,7 @@ export function LandingPage() {
             </h2>
             <p
       className={"section-desc"}>
-              {"We focus on the operational middle of cross-border trade — where commercial confidence depends on trust, coordination, and practical execution."}
+              {"We focus on the operational middle of international trade, where commercial confidence depends on trust, coordination, and practical execution."}
             </p>
             <p
       className={"about-text"}>
@@ -1261,10 +1297,10 @@ export function LandingPage() {
               </b>
               <div>
                 <strong>
-                  {"Follow-through"}
+                  {"Follow through"}
                 </strong>
                 <p>
-                  {"Make follow-up actions and responsibilities visible."}
+                  {"Make follow up actions and responsibilities visible."}
                 </p>
               </div>
             </div>
@@ -1338,7 +1374,7 @@ export function LandingPage() {
       src={"/logos/footer-logo.svg"} />
             </a>
             <p>
-              {"A coordination service for the middle of cross-border trade — where clear expectations, visibility, and practical follow-through matter."}
+              {"A coordination service for the middle of international trade, where clear expectations, visibility, and practical follow through matter."}
             </p>
             <div
       aria-label={"Social media"}
@@ -1486,7 +1522,7 @@ export function LandingPage() {
           </div>
         </div>
         <p className={"footer-claims"}>
-          {"GlobxLink coordinates cross-border trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes."}
+          {"GlobxLink coordinates international trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes."}
         </p>
         <div
       className={"footer-bottom"}>

@@ -56,7 +56,7 @@ export default async function InsightArticlePage({
           </section>
         ))}
         <aside className="content-boundary">
-          GlobxLink coordinates cross-border trade. Checks depend on available
+          GlobxLink coordinates international trade. Checks depend on available
           evidence and do not guarantee supplier performance or transaction
           outcomes. Seek qualified professional advice for your specific
           circumstances.

@@ -10,7 +10,7 @@ const sections=[...document.querySelectorAll('main section[id]')];
 const navObserver=new IntersectionObserver(entries=>{let active=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(active){navigation.forEach(a=>a.classList.toggle('active',a.hash==='#'+active.target.id))}},{rootMargin:'-90px 0px -52% 0px',threshold:[0,.05,.2,.5]});sections.forEach(s=>navObserver.observe(s));
 if(!reduced){document.body.classList.add('motion-ready');const obs=new IntersectionObserver(entries=>{for(const x of entries)if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}},{threshold:.10,rootMargin:'0px 0px -25px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el))}
 // Build email draft but do not assume a recipient or send a message.
-const inquiryForm=document.getElementById('inquiry');if(inquiryForm&&!inquiryForm.hasAttribute('data-local-draft'))inquiryForm.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);const terms=window.gxlEmailTerms?.()||['Name','Email','Inquiry'];const body=`${terms[0]}: ${d.get('name')}\n${terms[1]}: ${d.get('email')}\n${terms[2]}: ${d.get('topic')}\n\n${d.get('message')}`;location.href=`mailto:?subject=${encodeURIComponent('GlobxLink — '+d.get('topic'))}&body=${encodeURIComponent(body)}`});
+const inquiryForm=document.getElementById('inquiry');if(inquiryForm&&!inquiryForm.hasAttribute('data-local-draft'))inquiryForm.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);const terms=window.gxlEmailTerms?.()||['Name','Email','Inquiry'];const body=`${terms[0]}: ${d.get('name')}\n${terms[1]}: ${d.get('email')}\n${terms[2]}: ${d.get('topic')}\n\n${d.get('message')}`;location.href=`mailto:?subject=${encodeURIComponent('GlobxLink, '+d.get('topic'))}&body=${encodeURIComponent(body)}`});
 // Two original globe sources adapted to a standalone self-contained HTML canvas system.
 // Tactical: based on supplied TacticalGlobe3D.jsx custom orthographic projection / countries.
 // Interactive: based on supplied "الكرة الأرضية التفاعلية (1).html" geographic countries, trade connections, rotation.
@@ -18,7 +18,7 @@ const DEG=Math.PI/180;
 const GLOBE_THEMES={tactical:{sea:'#eef5fb',land:'#8FA8BE',landAlt:'#C8D8E6',border:'rgba(74,98,120,.65)',grid:'rgba(90,114,137,.28)',shadow:'#6B8CAE',dark:false},interactive:{sea:'#083376',land:'#6bc5fb',landAlt:'#b0dffc',border:'rgba(222,247,255,.7)',grid:'rgba(255,255,255,.12)',shadow:'#049afd',dark:true}};
 const GLOBE_STATE={tactical:{lambda:30,phi:13,zoom:1,drag:false,moved:0},interactive:{lambda:41,phi:14,zoom:1,drag:false,moved:0}};
 let activeGlobe='interactive',globeRunning=!reduced;const tooltip=document.getElementById('globeTip');
-// Projection math ported from the uploaded TacticalGlobe3D.jsx — orthographic, including gamma rotation.
+// Projection math ported from the uploaded TacticalGlobe3D.jsx, orthographic, including gamma rotation.
 function project(lon,lat,s){
  const lonRad=(lon-s.lambda)*DEG,latRad=lat*DEG,cosLat=Math.cos(latRad);
  const x0=cosLat*Math.cos(lonRad),y0=cosLat*Math.sin(lonRad),z0=Math.sin(latRad);

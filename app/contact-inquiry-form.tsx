@@ -26,7 +26,7 @@ export default function ContactInquiryForm() {
       ["Privacy Notice acknowledged", formData.get("consent") ? "Yes" : "No"],
     ];
     const content = [
-      "GlobxLink — Business Inquiry",
+      "GlobxLink, Business Inquiry",
       "",
       ...fields.map(([label, value]) => `${label}: ${value ?? ""}`),
     ].join("\n");

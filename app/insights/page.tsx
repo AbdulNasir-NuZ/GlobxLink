@@ -6,7 +6,7 @@ import ContentNav from "../content-nav";
 export const metadata: Metadata = {
   title: "Insights | GlobxLink",
   description:
-    "Practical guides to cross-border sourcing, supplier checks, and trade readiness.",
+    "Practical guides to international sourcing, supplier checks, and trade readiness.",
 };
 
 export default function InsightsPage() {
@@ -16,7 +16,7 @@ export default function InsightsPage() {
       <main className="content-page">
       <section className="content-hero">
         <p className="content-eyebrow">GlobxLink · Insights</p>
-        <h1>Practical questions for cross-border buyers.</h1>
+        <h1>Practical questions for international buyers.</h1>
         <p>
           Read clear starting points for evaluating providers and preparing a
           transaction. Every trade and provider is different; confirm details

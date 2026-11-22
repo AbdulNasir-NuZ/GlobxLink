@@ -13,6 +13,7 @@ const links = [
   { label: "How It Works", href: "/#how", sectionId: "how" },
   { label: "Founders", href: "/#founders", sectionId: "founders" },
   { label: "About", href: "/#about", sectionId: "about" },
+  { label: "Contact", href: "/#contact", sectionId: "contact" },
 ];
 
 export default function SiteHeader({
@@ -42,8 +43,7 @@ export default function SiteHeader({
             "--header-h",
           ),
         ) || 78;
-      const marker =
-        window.scrollY + headerHeight + window.innerHeight * 0.32;
+      const marker = window.scrollY + headerHeight + 24;
       let activeId: string | null = sections[0]?.id ?? null;
 
       for (const section of sections) {
@@ -84,6 +84,19 @@ export default function SiteHeader({
     return () => document.removeEventListener("keydown", closeOnEscape);
   }, [menuOpen]);
 
+  useEffect(() => {
+    const desktopQuery = window.matchMedia("(min-width: 1261px)");
+
+    function closeMenuOnDesktop() {
+      if (desktopQuery.matches) setMenuOpen(false);
+    }
+
+    desktopQuery.addEventListener("change", closeMenuOnDesktop);
+    closeMenuOnDesktop();
+
+    return () => desktopQuery.removeEventListener("change", closeMenuOnDesktop);
+  }, []);
+
   function closeMenu() {
     setMenuOpen(false);
   }
@@ -92,9 +105,14 @@ export default function SiteHeader({
     <>
       <header className="site-header" id="top">
         <div className="container header-inner">
-          <Link aria-label="GlobxLink home" className="logo on-dark" href="/#home">
+          <Link
+            aria-label="GlobxLink home"
+            className="logo on-dark"
+            href="/#home"
+            onClick={closeMenu}
+          >
             <img
-              alt="GlobxLink – Global Connections"
+              alt="GlobxLink, Global Connections"
               height="48"
               src="/logos/header-logo.svg"
               width="165"
@@ -104,10 +122,11 @@ export default function SiteHeader({
             {links.map((link) => {
               const isActive =
                 pathname === "/" && activeSection === link.sectionId;
+              const isSelected = isActive && !menuOpen;
               return (
                 <Link
-                  aria-current={isActive ? "location" : undefined}
-                  className={isActive ? "active" : undefined}
+                  aria-current={isSelected ? "location" : undefined}
+                  className={isSelected ? "active" : undefined}
                   href={link.href}
                   key={link.label}
                 >
@@ -119,7 +138,7 @@ export default function SiteHeader({
           <div className="header-cta">
             {showLanguage && <LanguageSwitcher />}
             <Link className="btn primary small" href="/#contact">
-              Contact ↗
+              Book a Call ↗
             </Link>
             <button
               aria-controls="site-nav-panel"
@@ -142,14 +161,22 @@ export default function SiteHeader({
         inert={!menuOpen}
       >
         <div className="site-nav-panel-inner">
-          {links.map((link) => (
-            <Link href={link.href} key={link.label} onClick={closeMenu}>
-              {link.label}
-            </Link>
-          ))}
-          <Link href="/#contact" onClick={closeMenu}>
-            Contact
-          </Link>
+          {links.map((link) => {
+            const isActive =
+              pathname === "/" && activeSection === link.sectionId;
+            const isSelected = isActive && menuOpen;
+            return (
+              <Link
+                aria-current={isSelected ? "location" : undefined}
+                className={isSelected ? "active" : undefined}
+                href={link.href}
+                key={link.label}
+                onClick={closeMenu}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
       </nav>
     </>

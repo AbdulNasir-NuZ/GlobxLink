@@ -15,7 +15,7 @@ export const articles: InsightArticle[] = [
     slug: "buyers-before-paying",
     title: "What should buyers check before paying an overseas supplier?",
     description:
-      "A practical pre-payment checklist for reviewing supplier identity, evidence, terms, documents, and transaction checkpoints.",
+      "A practical prepayment checklist for reviewing supplier identity, evidence, terms, documents, and transaction checkpoints.",
     category: "Buyer checklist",
     sections: [
       {
@@ -88,7 +88,7 @@ export const articles: InsightArticle[] = [
       {
         heading: "Keep the next step clear",
         paragraphs: [
-          "Record the options, open questions, and owner of each follow-up. If discovery becomes a live transaction involving terms, documents, milestones, or delivery, the work may need a broader trade-readiness and coordination scope.",
+          "Record the options, open questions, and owner of each follow up. If discovery becomes a live transaction involving terms, documents, milestones, or delivery, the work may need a broader trade-readiness and coordination scope.",
         ],
       },
     ],
@@ -101,7 +101,7 @@ export const articles: InsightArticle[] = [
     category: "Production planning",
     sections: [
       {
-        heading: "What an MOQ tells you — and what it does not",
+        heading: "What an MOQ tells you, and what it does not",
         paragraphs: [
           "A minimum order quantity (MOQ) is the smallest order a supplier is currently willing to accept under stated conditions. It may reflect setup effort, material purchasing, packaging, batch size, or the supplier’s commercial policy.",
           "Ask whether the MOQ applies per product, specification, colour, size, or production run, and whether a different quantity changes the price or schedule. Treat an MOQ as a term to confirm, not proof of capacity.",

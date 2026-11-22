@@ -11,7 +11,7 @@
       "How It Works": "Nasıl Çalışır",
       Founders: "Kurucular",
       "Book a Call ↗": "Görüşme Planla ↗",
-      "Cross-border trade coordination": "Sınır ötesi ticaret koordinasyonu",
+      "International trade coordination": "Sınır ötesi ticaret koordinasyonu",
       "Interactive globe showing trade connections; drag to rotate":
         "Ticaret bağlantılarını gösteren etkileşimli küre; döndürmek için sürükleyin",
       "Supplier check: magnifying glass and business buildings":
@@ -19,11 +19,11 @@
       "Payment milestones: transaction checkpoints and secure lock":
         "Ödeme kilometre taşları: işlem kontrol noktaları ve güvenli kilit",
       "Construction and building materials": "İnşaat ve yapı malzemeleri",
-      "Trade corridor illustration for Africa, Türkiye, and China, with Africa–Türkiye as the initial focus":
-        "Afrika, Türkiye ve Çin için ticaret koridoru görseli; başlangıç odağı Afrika–Türkiye",
-      "Trade connections across Africa, Türkiye, and China; initial focus is Africa–Türkiye":
-        "Afrika, Türkiye ve Çin arasındaki ticaret bağlantıları; ilk odak Afrika–Türkiye",
-      "GlobxLink works in the operational middle between agreement and delivery — helping businesses bring structure, visibility, and better coordination to cross-border trade.":
+      "Trade corridor illustration for Africa, Türkiye, and China, with Africa to Türkiye as the initial focus":
+        "Afrika, Türkiye ve Çin için ticaret koridoru görseli; başlangıç odağı Afrika ile Türkiye",
+      "Trade connections across Africa, Türkiye, and China; initial focus is Africa to Türkiye":
+        "Afrika, Türkiye ve Çin arasındaki ticaret bağlantıları; ilk odak Afrika ile Türkiye",
+      "GlobxLink works in the operational middle between agreement and delivery, helping businesses bring structure, visibility, and better coordination to international trade.":
         "GlobxLink, anlaşma ile teslimat arasındaki operasyonel aşamada çalışarak işletmelerin sınır ötesi ticarete yapı, görünürlük ve daha iyi koordinasyon kazandırmasına yardımcı olur.",
       "Discuss Your Trade Requirement ↗": "Ticaret İhtiyacınızı Görüşelim ↗",
       "Counterparty checks": "Karşı taraf kontrolleri",
@@ -31,11 +31,11 @@
       "Africa ↔ Türkiye corridor": "Afrika ↔ Türkiye koridoru",
       "Our Services": "Hizmetlerimiz",
       "Two ways in. One coordinated path.": "İki başlangıç noktası. Tek koordineli yol.",
-      "Most trade work starts with one of two needs — getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for an end-to-end transaction; choose a Provider Request when you only need to find or check a provider.":
+      "Most trade work starts with one of two needs, getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for a full transaction; choose a Provider Request when you only need to find or check a provider.":
         "Ticaret ihtiyaçları genellikle iki noktadan başlar: bir işlemi yürütmeye hazırlamak veya doğru sağlayıcıyı bulmak. Her iki ihtiyaç da ticaretin operasyonel aşamasında koordinasyona dönüşebilir. İşlemin tamamı için Değerlendirme ile başlayın; yalnızca sağlayıcı bulmak veya kontrol etmek istiyorsanız Sağlayıcı Talebi’ni seçin.",
       "Recommended · Start here": "Önerilen · Buradan başlayın",
       "Trade Readiness & Coordination Assessment": "Ticaret Hazırlık ve Koordinasyon Değerlendirmesi",
-      "A structured review of one cross-border transaction before you commit further.":
+      "A structured review of one international transaction before you commit further.":
         "Daha ileri taahhütlerde bulunmadan önce tek bir sınır ötesi işlemin yapılandırılmış incelemesi.",
       "Clarify what is confirmed, unconfirmed, and exposed": "Doğrulanan, doğrulanmayan ve risk taşıyan noktaları netleştirin",
       "Review corridor, specifications, terms, documents, and milestones": "Koridoru, özellikleri, koşulları, belgeleri ve kilometre taşlarını inceleyin",
@@ -51,35 +51,35 @@
       "Explore Provider Requests →": "Sağlayıcı Taleplerini inceleyin →",
       "Supplier introductions where available": "Uygun olduğunda tedarikçi tanıştırmaları",
       "Supplier and counterparty checks against available evidence": "Mevcut kanıtlara göre tedarikçi ve karşı taraf kontrolleri",
-      "Payment-milestone mapping — buyer and supplier define terms; GlobxLink does not hold or move funds":
-        "Ödeme kilometre taşlarının eşleştirilmesi — koşulları alıcı ve tedarikçi belirler; GlobxLink fon tutmaz veya aktarmaz",
+      "Payment milestone mapping, buyer and supplier define terms; GlobxLink does not hold or move funds":
+        "Ödeme kilometre taşlarının eşleştirilmesi, koşulları alıcı ve tedarikçi belirler; GlobxLink fon tutmaz veya aktarmaz",
       "Quality and quantity checkpoints, with the parties or an appointed inspector":
         "Taraflar veya görevlendirilen denetçiyle kalite ve miktar kontrol noktaları",
-      "Shipment-readiness confirmation": "Sevkiyata hazırlık teyidi",
-      "On-the-ground coordination where arranged": "Düzenlendiği durumlarda sahada koordinasyon",
+      "Shipment readiness confirmation": "Sevkiyata hazırlık teyidi",
+      "On site coordination where arranged": "Düzenlendiği durumlarda sahada koordinasyon",
       "Construction & Building Materials": "İnşaat ve Yapı Malzemeleri",
       "Packaging & Industrial Supplies": "Ambalaj ve Endüstriyel Malzemeler",
       "Packaging materials and industrial supplies. Specifications, availability, and lead times matter.":
         "Ambalaj malzemeleri ve endüstriyel tedarikler. Özellikler, bulunabilirlik ve teslim süreleri önemlidir.",
-      "Our initial commercial focus is the Africa–Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible.":
-        "İlk ticari odağımız Afrika–Türkiye koridorudur. Farklı coğrafyalar farklı belge, zamanlama, dil ve operasyon gereksinimleri getirir; açık bir koordinasyon çerçevesi bu unsurları görünür kılar.",
+      "Our initial commercial focus is the Africa to Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible.":
+        "İlk ticari odağımız Afrika ile Türkiye arasındaki koridordur. Farklı coğrafyalar farklı belge, zamanlama, dil ve operasyon gereksinimleri getirir; açık bir koordinasyon çerçevesi bu unsurları görünür kılar.",
       "Africa ↔ Türkiye · Initial focus": "Afrika ↔ Türkiye · İlk odak",
       "China · Broader trade context": "Çin · Daha geniş ticaret bağlamı",
       "Concept view": "Kavramsal görünüm",
-      "How coordination works — a concept view.": "Koordinasyon nasıl işler — kavramsal bir görünüm.",
+      "How coordination works, a concept view.": "Koordinasyon nasıl işler, kavramsal bir görünüm.",
       "GlobxLink is a coordination service. This illustrative interface describes a possible way to organize the work; it is not a live product or trade record.":
         "GlobxLink bir koordinasyon hizmetidir. Bu örnek arayüz, işin nasıl düzenlenebileceğini gösterir; canlı bir ürün veya ticaret kaydı değildir.",
       "Available-evidence checks": "Mevcut kanıtlara dayalı kontroller",
       "Progress visibility": "İlerleme görünürlüğü",
       "Concept · Workflow overview · Organized checkpoints · Visible handoffs":
         "Kavram · İş akışı özeti · Düzenli kontrol noktaları · Görünür devirler",
-      "Practical questions for cross-border buyers.": "Sınır ötesi alıcılar için pratik sorular.",
+      "Practical questions for international buyers.": "Sınır ötesi alıcılar için pratik sorular.",
       "Clear, useful starting points for evaluating providers and preparing a transaction.":
         "Sağlayıcıları değerlendirmek ve işlemi hazırlamak için açık ve faydalı başlangıç noktaları.",
       "BUYER CHECKLIST": "ALICI KONTROL LİSTESİ",
       "What should buyers check before paying an overseas supplier?":
         "Alıcılar yurt dışındaki bir tedarikçiye ödeme yapmadan önce neleri kontrol etmeli?",
-      "Build a practical pre-payment review around identity, evidence, terms, documents, and agreed checkpoints.":
+      "Build a practical prepayment review around identity, evidence, terms, documents, and agreed checkpoints.":
         "Kimlik, kanıt, koşullar, belgeler ve kararlaştırılmış kontrol noktalarını içeren pratik bir ödeme öncesi inceleme yapın.",
       "Read the article →": "Makaleyi okuyun →",
       "PROVIDER DISCOVERY": "SAĞLAYICI ARAŞTIRMASI",
@@ -97,14 +97,14 @@
       "The Team →": "Ekip →",
       "Skip to content": "İçeriğe geç",
       "People working across the middle of trade.": "Ticaretin operasyonel aşamasında çalışan ekip.",
-      "We started GlobxLink to address the operational realities of cross-border trade through practical coordination and clearer handoffs.":
+      "We started GlobxLink to address the operational realities of international trade through practical coordination and clearer handoffs.":
         "GlobxLink'i, sınır ötesi ticaretin operasyonel gerçeklerine pratik koordinasyon ve daha açık devirlerle yanıt vermek için kurduk.",
-      "A team of six across China, Türkiye, and Africa — plus remote engineering — with people joining as we partner and hire.":
-        "Çin, Türkiye ve Afrika'da altı kişilik bir ekip ve uzaktan çalışan mühendislik ekibi — ortaklıklar ve işe alımlarla büyüyoruz.",
-      "Founder focused on facilitating cross-border trade between African and Turkish businesses, coordinating supplier interactions and day-to-day execution across language, culture, and operational complexity.":
+      "A team of six across China, Türkiye, and Africa, plus remote engineering, with people joining as we partner and hire.":
+        "Çin, Türkiye ve Afrika'da altı kişilik bir ekip ve uzaktan çalışan mühendislik ekibi, ortaklıklar ve işe alımlarla büyüyoruz.",
+      "Founder focused on facilitating international trade between African and Turkish businesses, coordinating supplier interactions and daily execution across language, culture, and operational complexity.":
         "Afrika ve Türkiye'deki işletmeler arasında sınır ötesi ticareti kolaylaştırmaya odaklanan kurucu; dil, kültür ve operasyonel karmaşıklık boyunca tedarikçi etkileşimlerini ve günlük uygulamayı koordine eder.",
-      "Product engineer leading the design of the GlobxLink coordination-workspace concept — milestone structure, documentation flow, and partner integrations. Background in financial-services systems where settlement evidence is non-negotiable.":
-        "GlobxLink koordinasyon çalışma alanı kavramının tasarımına liderlik eden ürün mühendisi — kilometre taşı yapısı, belge akışı ve iş ortağı entegrasyonları. Mutabakat kanıtlarının vazgeçilmez olduğu finansal hizmet sistemlerinde deneyim sahibidir.",
+      "Product engineer leading the design of the GlobxLink coordination workspace concept, milestone structure, documentation flow, and partner integrations. Background in financial services systems where settlement evidence is essential.":
+        "GlobxLink koordinasyon çalışma alanı kavramının tasarımına liderlik eden ürün mühendisi, kilometre taşı yapısı, belge akışı ve iş ortağı entegrasyonları. Mutabakat kanıtlarının vazgeçilmez olduğu finansal hizmet sistemlerinde deneyim sahibidir.",
       "Systems engineer responsible for verification tooling and workflows. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to depend on in real transactions.":
         "Kontrol araçları ve iş akışlarından sorumlu sistem mühendisi. Karşı taraf kontrollerini, belge yönlendirmesini ve denetim izlerini gerçek işlemlerde güvenilebilecek hale getiren teknik çalışmalara odaklanır.",
       "Tell us about the corridor, product, and current stage of the transaction.":
@@ -120,7 +120,7 @@
       "Your name": "Adınız",
       Company: "Şirket",
       "Company name": "Şirket adı",
-      "Business email": "İş e-posta adresi",
+      "Business email": "İş elektronik posta adresi",
       Country: "Ülke",
       "Select an inquiry type": "Talep türünü seçin",
       "General Enquiry": "Genel Talep",
@@ -133,10 +133,10 @@
       "Your inquiry draft has been downloaded. It has not been sent to GlobxLink.":
         "Talep taslağınız indirildi. GlobxLink'e gönderilmedi.",
       "This form creates a draft on your device and does not send data. A verified business email or a connected backend is needed before online submissions can be enabled.":
-        "Bu form cihazınızda bir taslak oluşturur ve veri göndermez. Çevrimiçi gönderimler açılmadan önce doğrulanmış bir iş e-posta adresi veya bağlı bir arka uç gerekir.",
-      "GlobxLink coordinates cross-border trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes.":
+        "Bu form cihazınızda bir taslak oluşturur ve veri göndermez. Çevrimiçi gönderimler açılmadan önce doğrulanmış bir iş elektronik posta adresi veya bağlı bir arka uç gerekir.",
+      "GlobxLink coordinates international trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes.":
         "GlobxLink sınır ötesi ticareti koordine eder. Bir pazaryeri, nakliye komisyoncusu, gümrük müşaviri veya ödeme sağlayıcısı değildir; teslimatı, tüm tedarikçilerin doğrulanmasını veya işlem sonuçlarını garanti etmez.",
-      "A coordination service for the middle of cross-border trade — where clear expectations, visibility, and practical follow-through matter.":
+      "A coordination service for the middle of international trade, where clear expectations, visibility, and practical follow through matter.":
         "Sınır ötesi ticaretin merkezinde; net beklentilerin, görünürlüğün ve uygulama takibinin önem taşıdığı bir koordinasyon hizmeti.",
     },
     fr: {
@@ -148,7 +148,7 @@
       "How It Works": "Fonctionnement",
       Founders: "Fondateurs",
       "Book a Call ↗": "Planifier un appel ↗",
-      "Cross-border trade coordination": "Coordination du commerce transfrontalier",
+      "International trade coordination": "Coordination du commerce transfrontalier",
       "Interactive globe showing trade connections; drag to rotate":
         "Globe interactif montrant les liens commerciaux ; faites glisser pour le faire tourner",
       "Supplier check: magnifying glass and business buildings":
@@ -156,11 +156,11 @@
       "Payment milestones: transaction checkpoints and secure lock":
         "Jalons de paiement : points de contrôle de transaction et cadenas sécurisé",
       "Construction and building materials": "Construction et matériaux du bâtiment",
-      "Trade corridor illustration for Africa, Türkiye, and China, with Africa–Türkiye as the initial focus":
-        "Illustration des corridors commerciaux entre l’Afrique, Türkiye et la Chine, avec l’Afrique–Türkiye comme priorité initiale",
-      "Trade connections across Africa, Türkiye, and China; initial focus is Africa–Türkiye":
-        "Liens commerciaux entre l’Afrique, Türkiye et la Chine ; priorité initiale au corridor Afrique–Türkiye",
-      "GlobxLink works in the operational middle between agreement and delivery — helping businesses bring structure, visibility, and better coordination to cross-border trade.":
+      "Trade corridor illustration for Africa, Türkiye, and China, with Africa to Türkiye as the initial focus":
+        "Illustration des corridors commerciaux entre l’Afrique, Türkiye et la Chine, avec l’Afrique et Türkiye comme priorité initiale",
+      "Trade connections across Africa, Türkiye, and China; initial focus is Africa to Türkiye":
+        "Liens commerciaux entre l’Afrique, Türkiye et la Chine ; priorité initiale au corridor entre l’Afrique et Türkiye",
+      "GlobxLink works in the operational middle between agreement and delivery, helping businesses bring structure, visibility, and better coordination to international trade.":
         "GlobxLink intervient au cœur opérationnel, entre l’accord et la livraison, pour aider les entreprises à structurer, rendre visible et mieux coordonner leurs échanges transfrontaliers.",
       "Discuss Your Trade Requirement ↗": "Parlons de votre besoin commercial ↗",
       "Counterparty checks": "Contrôles des contreparties",
@@ -168,11 +168,11 @@
       "Africa ↔ Türkiye corridor": "Corridor Afrique ↔ Türkiye",
       "Our Services": "Nos services",
       "Two ways in. One coordinated path.": "Deux points d’entrée. Un parcours coordonné.",
-      "Most trade work starts with one of two needs — getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for an end-to-end transaction; choose a Provider Request when you only need to find or check a provider.":
+      "Most trade work starts with one of two needs, getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for a full transaction; choose a Provider Request when you only need to find or check a provider.":
         "La plupart des besoins commerciaux commencent par la préparation d’une transaction ou la recherche du bon prestataire. Les deux peuvent mener à une exécution coordonnée. Choisissez l’Évaluation pour une transaction complète ou une Demande de prestataire pour trouver ou examiner un prestataire.",
       "Recommended · Start here": "Recommandé · Commencez ici",
       "Trade Readiness & Coordination Assessment": "Évaluation de préparation et de coordination commerciale",
-      "A structured review of one cross-border transaction before you commit further.":
+      "A structured review of one international transaction before you commit further.":
         "Un examen structuré d’une transaction transfrontalière avant tout nouvel engagement.",
       "Clarify what is confirmed, unconfirmed, and exposed": "Clarifier les éléments confirmés, non confirmés et exposés",
       "Review corridor, specifications, terms, documents, and milestones": "Examiner le corridor, les spécifications, les conditions, les documents et les jalons",
@@ -188,35 +188,35 @@
       "Explore Provider Requests →": "Découvrir les demandes de prestataire →",
       "Supplier introductions where available": "Mises en relation avec des fournisseurs, si disponibles",
       "Supplier and counterparty checks against available evidence": "Contrôles des fournisseurs et contreparties selon les éléments disponibles",
-      "Payment-milestone mapping — buyer and supplier define terms; GlobxLink does not hold or move funds":
-        "Cartographie des jalons de paiement — l’acheteur et le fournisseur définissent les conditions ; GlobxLink ne détient ni ne transfère de fonds",
+      "Payment milestone mapping, buyer and supplier define terms; GlobxLink does not hold or move funds":
+        "Cartographie des jalons de paiement, l’acheteur et le fournisseur définissent les conditions ; GlobxLink ne détient ni ne transfère de fonds",
       "Quality and quantity checkpoints, with the parties or an appointed inspector":
         "Points de contrôle qualité et quantité avec les parties ou un inspecteur désigné",
-      "Shipment-readiness confirmation": "Confirmation de la préparation à l’expédition",
-      "On-the-ground coordination where arranged": "Coordination sur place lorsqu’elle est convenue",
+      "Shipment readiness confirmation": "Confirmation de la préparation à l’expédition",
+      "On site coordination where arranged": "Coordination sur place lorsqu’elle est convenue",
       "Construction & Building Materials": "Construction et matériaux du bâtiment",
       "Packaging & Industrial Supplies": "Emballages et fournitures industrielles",
       "Packaging materials and industrial supplies. Specifications, availability, and lead times matter.":
         "Emballages et fournitures industrielles. Les spécifications, la disponibilité et les délais sont essentiels.",
-      "Our initial commercial focus is the Africa–Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible.":
-        "Notre priorité commerciale initiale est le corridor Afrique–Türkiye. Les différences de documentation, de calendrier, de langue et d’opérations nécessitent un cadre de coordination clair.",
+      "Our initial commercial focus is the Africa to Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible.":
+        "Notre priorité commerciale initiale est le corridor entre l’Afrique et Türkiye. Les différences de documentation, de calendrier, de langue et d’opérations nécessitent un cadre de coordination clair.",
       "Africa ↔ Türkiye · Initial focus": "Afrique ↔ Türkiye · Priorité initiale",
       "China · Broader trade context": "Chine · Contexte commercial plus large",
       "Concept view": "Vue conceptuelle",
-      "How coordination works — a concept view.": "Comment fonctionne la coordination — vue conceptuelle.",
+      "How coordination works, a concept view.": "Comment fonctionne la coordination, vue conceptuelle.",
       "GlobxLink is a coordination service. This illustrative interface describes a possible way to organize the work; it is not a live product or trade record.":
         "GlobxLink est un service de coordination. Cette interface illustrative montre une façon possible d’organiser le travail ; il ne s’agit pas d’un produit actif ni de données commerciales réelles.",
       "Available-evidence checks": "Contrôles selon les éléments disponibles",
       "Progress visibility": "Visibilité sur l’avancement",
       "Concept · Workflow overview · Organized checkpoints · Visible handoffs":
         "Concept · Vue du processus · Points de contrôle organisés · Transferts visibles",
-      "Practical questions for cross-border buyers.": "Questions pratiques pour les acheteurs transfrontaliers.",
+      "Practical questions for international buyers.": "Questions pratiques pour les acheteurs transfrontaliers.",
       "Clear, useful starting points for evaluating providers and preparing a transaction.":
         "Des repères clairs pour évaluer des prestataires et préparer une transaction.",
       "BUYER CHECKLIST": "LISTE DE CONTRÔLE ACHETEUR",
       "What should buyers check before paying an overseas supplier?":
         "Que vérifier avant de payer un fournisseur à l’étranger ?",
-      "Build a practical pre-payment review around identity, evidence, terms, documents, and agreed checkpoints.":
+      "Build a practical prepayment review around identity, evidence, terms, documents, and agreed checkpoints.":
         "Préparez une revue avant paiement portant sur l’identité, les preuves, les conditions, les documents et les points de contrôle convenus.",
       "Read the article →": "Lire l’article →",
       "PROVIDER DISCOVERY": "RECHERCHE DE PRESTATAIRE",
@@ -234,14 +234,14 @@
       "The Team →": "L’équipe →",
       "Skip to content": "Aller au contenu",
       "People working across the middle of trade.": "Une équipe au cœur des opérations commerciales.",
-      "We started GlobxLink to address the operational realities of cross-border trade through practical coordination and clearer handoffs.":
+      "We started GlobxLink to address the operational realities of international trade through practical coordination and clearer handoffs.":
         "Nous avons créé GlobxLink pour répondre aux réalités opérationnelles du commerce transfrontalier grâce à une coordination concrète et des relais plus clairs.",
-      "A team of six across China, Türkiye, and Africa — plus remote engineering — with people joining as we partner and hire.":
+      "A team of six across China, Türkiye, and Africa, plus remote engineering, with people joining as we partner and hire.":
         "Une équipe de six personnes en Chine, Türkiye et Afrique, avec une équipe d’ingénierie à distance, qui s’agrandit au fil des partenariats et recrutements.",
-      "Founder focused on facilitating cross-border trade between African and Turkish businesses, coordinating supplier interactions and day-to-day execution across language, culture, and operational complexity.":
+      "Founder focused on facilitating international trade between African and Turkish businesses, coordinating supplier interactions and daily execution across language, culture, and operational complexity.":
         "Fondateur spécialisé dans la facilitation du commerce entre entreprises africaines et turques, la coordination des fournisseurs et des opérations dans des contextes linguistiques et culturels variés.",
-      "Product engineer leading the design of the GlobxLink coordination-workspace concept — milestone structure, documentation flow, and partner integrations. Background in financial-services systems where settlement evidence is non-negotiable.":
-        "Ingénieur produit chargé de concevoir le concept d’espace de coordination GlobxLink — jalons, flux documentaire et intégrations partenaires. Expérience des systèmes financiers où les preuves de règlement sont indispensables.",
+      "Product engineer leading the design of the GlobxLink coordination workspace concept, milestone structure, documentation flow, and partner integrations. Background in financial services systems where settlement evidence is essential.":
+        "Ingénieur produit chargé de concevoir le concept d’espace de coordination GlobxLink, jalons, flux documentaire et intégrations partenaires. Expérience des systèmes financiers où les preuves de règlement sont indispensables.",
       "Systems engineer responsible for verification tooling and workflows. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to depend on in real transactions.":
         "Ingénieur systèmes responsable des outils et processus de contrôle. Il travaille sur les aspects techniques qui rendent les contrôles, le routage documentaire et les pistes d’audit fiables pour les transactions.",
       "Tell us about the corridor, product, and current stage of the transaction.":
@@ -257,7 +257,7 @@
       "Your name": "Votre nom",
       Company: "Entreprise",
       "Company name": "Nom de l’entreprise",
-      "Business email": "E-mail professionnel",
+      "Business email": "Email professionnel",
       Country: "Pays",
       "Select an inquiry type": "Sélectionner un type de demande",
       "General Enquiry": "Demande générale",
@@ -271,9 +271,9 @@
         "Votre brouillon a été téléchargé. Il n’a pas été envoyé à GlobxLink.",
       "This form creates a draft on your device and does not send data. A verified business email or a connected backend is needed before online submissions can be enabled.":
         "Ce formulaire crée un brouillon sur votre appareil sans envoyer de données. Une adresse professionnelle vérifiée ou un serveur adapté est nécessaire avant d’activer l’envoi en ligne.",
-      "GlobxLink coordinates cross-border trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes.":
+      "GlobxLink coordinates international trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes.":
         "GlobxLink coordonne le commerce transfrontalier. Ce n’est ni une place de marché, ni un transporteur, ni un commissionnaire en douane, ni un prestataire de paiement, et ne garantit ni la livraison, ni la vérification de tous les fournisseurs, ni les résultats des transactions.",
-      "A coordination service for the middle of cross-border trade — where clear expectations, visibility, and practical follow-through matter.":
+      "A coordination service for the middle of international trade, where clear expectations, visibility, and practical follow through matter.":
         "Un service de coordination au cœur du commerce transfrontalier, où la clarté des attentes, la visibilité et le suivi concret comptent.",
     },
   };
@@ -288,7 +288,7 @@
     "Most trade work starts with one of two needs: getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade.":
       "Ticaret ihtiyaçları genellikle iki noktadan başlar: bir işlemi yürütmeye hazırlamak veya doğru sağlayıcıyı bulmak. Her iki ihtiyaç da ticaretin operasyonel aşamasında koordinasyona dönüşebilir.",
     "Explore this service →": "Bu hizmeti inceleyin →",
-    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your cross-border trade need.":
+    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your international trade need.":
       "Sınır ötesi ticaret ihtiyacınız için Ticaret Hazırlık ve Koordinasyon Değerlendirmesini veya Sağlayıcı Talebini seçin.",
     "Services | GlobxLink": "Hizmetler | GlobxLink",
     "Find a Provider (Provider Request) | GlobxLink":
@@ -297,13 +297,13 @@
       "Ticaret Hazırlığı ve Koordinasyon Değerlendirmesi | GlobxLink",
     "Know what your transaction needs before you commit to it.":
       "Taahhütte bulunmadan önce işleminizin ihtiyaçlarını öğrenin.",
-    "Businesses with a specific cross-border transaction — sourcing, negotiating terms, in execution, or resolving an issue — who want it to proceed with fewer surprises.":
+    "Businesses with a specific international transaction, sourcing, negotiating terms, in execution, or resolving an issue, who want it to proceed with fewer surprises.":
       "Belirli bir sınır ötesi işlemi bulunan ve tedarik, koşul müzakeresi, uygulama veya sorun çözümü aşamalarında daha az sürprizle ilerlemek isteyen işletmeler.",
     "Between agreement and delivery, requirements drift, documents lag, responsibilities blur, and changes do not reach everyone. Many of these problems are visible early if someone is looking for them.":
       "Anlaşma ile teslimat arasında gereksinimler değişebilir, belgeler gecikebilir, sorumluluklar belirsizleşebilir ve güncellemeler herkese ulaşmayabilir. Bu sorunların çoğu erken takip edilirse görülebilir.",
     "A structured review of one transaction: corridor and markets, product and specifications, counterparty status, commercial terms, documentation, milestones, and the main constraint most likely to delay or disrupt it.":
       "Tek bir işlemin yapılandırılmış incelemesi: koridor ve pazarlar, ürün ve özellikleri, karşı tarafın durumu, ticari koşullar, belgeler, kilometre taşları ve gecikmeye ya da kesintiye yol açabilecek temel kısıt.",
-    "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step — including, where it fits, moving into ongoing coordination.":
+    "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step, including, where it fits, moving into ongoing coordination.":
       "Doğrulanan, doğrulanmayan ve risk taşıyan noktaların açık özeti; ele alınması gereken konuların öncelik listesi ve uygun olduğunda devam eden koordinasyona geçişi içeren belirli bir sonraki adım.",
     "Share a short brief on one transaction": "Bir işlem hakkında kısa bilgi paylaşın",
     "Complete a structured assessment": "Yapılandırılmış değerlendirmeyi tamamlayın",
@@ -311,10 +311,10 @@
     "Optionally agree a coordination engagement": "İsteğe bağlı olarak koordinasyon çalışmasını kararlaştırın",
     "Message “ASSESSMENT” with your corridor and product, or use the enquiry form and select Trade Readiness Assessment.":
       "Koridorunuzu ve ürününüzü belirterek “DEĞERLENDİRME” mesajı gönderin veya talep formunda Ticaret Hazırlık Değerlendirmesini seçin.",
-    "GlobxLink coordinates — it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.":
+    "GlobxLink coordinates, it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.":
       "GlobxLink koordinasyon sağlar. Fon tutmaz veya aktarmaz, gümrük işlemi yapmaz, yük taşımacılığı üstlenmez ve sonuç garantisi vermez. Kapsam ve ek çalışmalar taahhüt öncesinde kararlaştırılır.",
     "Find a Provider (Provider Request)": "Sağlayıcı Bulun (Sağlayıcı Talebi)",
-    "When you just need the right provider — a lighter way in.":
+    "When you just need the right provider, a lighter way in.":
       "Yalnızca doğru sağlayıcıyı arıyorsanız daha kolay bir başlangıç.",
     "Businesses that only need to find or check a provider for a defined requirement, and are not yet working on a full transaction.":
       "Henüz kapsamlı bir işlem yürütmeyen, belirli bir ihtiyaca uygun sağlayıcı bulmak veya mevcut sağlayıcıyı kontrol etmek isteyen işletmeler.",
@@ -342,7 +342,7 @@
     "Service boundaries": "Hizmet sınırları",
     "Open the enquiry form →": "Talep formunu açın →",
     "Insight not found | GlobxLink": "İçerik bulunamadı | GlobxLink",
-    "Practical questions for cross-border buyers.":
+    "Practical questions for international buyers.":
       "Sınır ötesi alıcılar için pratik sorular.",
     "Read clear starting points for evaluating providers and preparing a transaction. Every trade and provider is different; confirm details for your specific request.":
       "Sağlayıcıları değerlendirmek ve işlemi hazırlamak için açık başlangıç noktalarını okuyun. Her ticaret ve sağlayıcı farklıdır; talebinize özgü ayrıntıları doğrulayın.",
@@ -356,7 +356,7 @@
       "Mevcut talep formu tarayıcınızda çalışır ve indirmeniz için bir metin dosyası oluşturur.",
     "Information in the inquiry draft": "Talep taslağındaki bilgiler",
     "If you complete the form, the name, company, business email, country, inquiry type, and message you enter are assembled into a text file on your device. The form does not send this information to GlobxLink or store it on a GlobxLink server.":
-      "Formu doldurursanız adınız, şirketiniz, iş e-posta adresiniz, ülkeniz, talep türünüz ve mesajınız cihazınızda bir metin dosyasında birleştirilir. Form bu bilgileri GlobxLink'e göndermez veya GlobxLink sunucusunda saklamaz.",
+      "Formu doldurursanız adınız, şirketiniz, iş elektronik posta adresiniz, ülkeniz, talep türünüz ve mesajınız cihazınızda bir metin dosyasında birleştirilir. Form bu bilgileri GlobxLink'e göndermez veya GlobxLink sunucusunda saklamaz.",
     "Your choices": "Seçenekleriniz",
     "You choose whether to download, keep, or share the draft. Review the file before sending it through another channel and avoid including sensitive information that is not needed for an initial enquiry.":
       "Taslağı indirip indirmemeye, saklamaya veya paylaşmaya siz karar verirsiniz. Başka bir kanaldan göndermeden önce dosyayı inceleyin ve ilk talep için gerekmeyen hassas bilgileri eklemeyin.",
@@ -377,7 +377,7 @@
     "Most trade work starts with one of two needs: getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade.":
       "La plupart des besoins commerciaux commencent par la préparation d’une transaction ou la recherche du bon prestataire. Les deux peuvent mener à une exécution coordonnée.",
     "Explore this service →": "Découvrir ce service →",
-    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your cross-border trade need.":
+    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your international trade need.":
       "Choisissez une évaluation de préparation et de coordination commerciale ou une demande de prestataire selon votre besoin transfrontalier.",
     "Services | GlobxLink": "Services | GlobxLink",
     "Find a Provider (Provider Request) | GlobxLink":
@@ -386,13 +386,13 @@
       "Évaluation de préparation et de coordination commerciale | GlobxLink",
     "Know what your transaction needs before you commit to it.":
       "Identifiez les besoins de votre transaction avant de vous engager.",
-    "Businesses with a specific cross-border transaction — sourcing, negotiating terms, in execution, or resolving an issue — who want it to proceed with fewer surprises.":
+    "Businesses with a specific international transaction, sourcing, negotiating terms, in execution, or resolving an issue, who want it to proceed with fewer surprises.":
       "Entreprises ayant une transaction transfrontalière précise et souhaitant avancer avec moins d’imprévus, de la recherche à l’exécution ou à la résolution d’un problème.",
     "Between agreement and delivery, requirements drift, documents lag, responsibilities blur, and changes do not reach everyone. Many of these problems are visible early if someone is looking for them.":
       "Entre l’accord et la livraison, les besoins évoluent, les documents prennent du retard, les responsabilités deviennent floues et les changements ne sont pas transmis à tous. Un suivi précoce permet d’identifier bon nombre de ces problèmes.",
     "A structured review of one transaction: corridor and markets, product and specifications, counterparty status, commercial terms, documentation, milestones, and the main constraint most likely to delay or disrupt it.":
       "Examen structuré d’une transaction : corridor et marchés, produit et spécifications, situation de la contrepartie, conditions commerciales, documents, jalons et principal risque de retard ou de perturbation.",
-    "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step — including, where it fits, moving into ongoing coordination.":
+    "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step, including, where it fits, moving into ongoing coordination.":
       "Synthèse des éléments confirmés, non confirmés et exposés, liste priorisée des points à traiter et prochaine étape définie, avec possibilité de poursuivre par une coordination continue.",
     "Share a short brief on one transaction": "Présentez brièvement une transaction",
     "Complete a structured assessment": "Réalisez une évaluation structurée",
@@ -400,10 +400,10 @@
     "Optionally agree a coordination engagement": "Convenez, si besoin, d’un accompagnement de coordination",
     "Message “ASSESSMENT” with your corridor and product, or use the enquiry form and select Trade Readiness Assessment.":
       "Envoyez « ÉVALUATION » avec votre corridor et votre produit, ou sélectionnez l’évaluation de préparation commerciale dans le formulaire.",
-    "GlobxLink coordinates — it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.":
+    "GlobxLink coordinates, it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.":
       "GlobxLink coordonne les échanges, mais ne détient ni ne transfère de fonds, ne dédouane pas les marchandises, n’organise pas leur transport et ne garantit aucun résultat. Le périmètre et tout travail complémentaire sont convenus avant engagement.",
     "Find a Provider (Provider Request)": "Trouver un prestataire (demande de prestataire)",
-    "When you just need the right provider — a lighter way in.":
+    "When you just need the right provider, a lighter way in.":
       "Un parcours simplifié pour trouver le prestataire adapté.",
     "Businesses that only need to find or check a provider for a defined requirement, and are not yet working on a full transaction.":
       "Entreprises qui souhaitent trouver ou évaluer un prestataire pour un besoin précis, sans gérer encore une transaction complète.",
@@ -430,7 +430,7 @@
     "How to request": "Comment faire une demande",
     "Service boundaries": "Limites du service",
     "Open the enquiry form →": "Ouvrir le formulaire de demande →",
-    "Practical questions for cross-border buyers.":
+    "Practical questions for international buyers.":
       "Questions pratiques pour les acheteurs transfrontaliers.",
     "Read clear starting points for evaluating providers and preparing a transaction. Every trade and provider is different; confirm details for your specific request.":
       "Découvrez des repères clairs pour évaluer des prestataires et préparer une transaction. Chaque opération et chaque prestataire sont différents ; vérifiez les détails propres à votre demande.",
@@ -444,7 +444,7 @@
       "Le formulaire actuel fonctionne dans votre navigateur et crée un fichier texte à télécharger.",
     "Information in the inquiry draft": "Informations du brouillon de demande",
     "If you complete the form, the name, company, business email, country, inquiry type, and message you enter are assembled into a text file on your device. The form does not send this information to GlobxLink or store it on a GlobxLink server.":
-      "Si vous remplissez le formulaire, votre nom, votre entreprise, votre e-mail professionnel, votre pays, le type de demande et votre message sont réunis dans un fichier texte sur votre appareil. Le formulaire n’envoie pas ces informations à GlobxLink et ne les stocke pas sur ses serveurs.",
+      "Si vous remplissez le formulaire, votre nom, votre entreprise, votre email professionnel, votre pays, le type de demande et votre message sont réunis dans un fichier texte sur votre appareil. Le formulaire n’envoie pas ces informations à GlobxLink et ne les stocke pas sur ses serveurs.",
     "Your choices": "Vos choix",
     "You choose whether to download, keep, or share the draft. Review the file before sending it through another channel and avoid including sensitive information that is not needed for an initial enquiry.":
       "Vous choisissez de télécharger, conserver ou partager le brouillon. Relisez le fichier avant de l’envoyer par un autre canal et évitez d’y inclure des informations sensibles inutiles pour une première demande.",
@@ -521,7 +521,7 @@
     }
 
     const descriptions = {
-      en: "GlobxLink coordinates cross-border trade through a Trade Readiness & Coordination Assessment and Provider Request service.",
+      en: "GlobxLink coordinates international trade through a Trade Readiness & Coordination Assessment and Provider Request service.",
       tr: "GlobxLink, Ticaret Hazırlık ve Koordinasyon Değerlendirmesi ile Sağlayıcı Talebi hizmetleri aracılığıyla sınır ötesi ticareti koordine eder.",
       fr: "GlobxLink coordonne le commerce transfrontalier grâce à l’évaluation de préparation commerciale et aux demandes de prestataires.",
     };

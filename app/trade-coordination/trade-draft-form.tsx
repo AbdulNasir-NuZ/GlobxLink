@@ -17,13 +17,14 @@ const copy = {
     origin: "Origin country",
     destination: "Destination country",
     message: "What would you like to coordinate?",
+    emptyValue: "Not provided",
     download: "Download inquiry draft",
     downloaded: "Your draft has been downloaded.",
   },
   tr: {
     language: "Dil",
     name: "Adınız",
-    email: "E-posta adresiniz",
+    email: "Elektronik posta adresiniz",
     company: "Şirket (isteğe bağlı)",
     direction: "Ticaret yönü",
     directionPlaceholder: "Bir yön seçin",
@@ -34,13 +35,14 @@ const copy = {
     origin: "Menşe ülke",
     destination: "Varış ülkesi",
     message: "Hangi konuda koordinasyon istiyorsunuz?",
+    emptyValue: "Belirtilmedi",
     download: "Talep taslağını indir",
     downloaded: "Taslağınız indirildi.",
   },
   fr: {
     language: "Langue",
     name: "Votre nom",
-    email: "Votre adresse e-mail",
+    email: "Votre adresse email",
     company: "Entreprise (facultatif)",
     direction: "Sens commercial",
     directionPlaceholder: "Choisir un sens",
@@ -51,6 +53,7 @@ const copy = {
     origin: "Pays d’origine",
     destination: "Pays de destination",
     message: "Que souhaitez-vous coordonner ?",
+    emptyValue: "Non renseigné",
     download: "Télécharger le brouillon",
     downloaded: "Votre brouillon a été téléchargé.",
   },
@@ -77,9 +80,9 @@ export default function TradeDraftForm() {
       [t.message, values.get("message")],
     ];
     const content = [
-      "GlobxLink — Trade Coordination Inquiry",
+      "GlobxLink, Trade Coordination Inquiry",
       "",
-      ...fields.map(([label, value]) => `${label}: ${value || "—"}`),
+      ...fields.map(([label, value]) => `${label}: ${value || t.emptyValue}`),
     ].join("\n");
     const url = URL.createObjectURL(
       new Blob([content], { type: "text/plain;charset=utf-8" }),

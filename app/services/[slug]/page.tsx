@@ -22,13 +22,13 @@ const services: Record<string, ServiceDetails> = {
     description: "Know what your transaction needs before you commit to it.",
     label: "Recommended · Start here",
     who:
-      "Businesses with a specific cross-border transaction — sourcing, negotiating terms, in execution, or resolving an issue — who want it to proceed with fewer surprises.",
+      "Businesses with a specific international transaction, sourcing, negotiating terms, in execution, or resolving an issue, who want it to proceed with fewer surprises.",
     problem:
       "Between agreement and delivery, requirements drift, documents lag, responsibilities blur, and changes do not reach everyone. Many of these problems are visible early if someone is looking for them.",
     scope:
       "A structured review of one transaction: corridor and markets, product and specifications, counterparty status, commercial terms, documentation, milestones, and the main constraint most likely to delay or disrupt it.",
     deliverables:
-      "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step — including, where it fits, moving into ongoing coordination.",
+      "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step, including, where it fits, moving into ongoing coordination.",
     process: [
       "Share a short brief on one transaction",
       "Complete a structured assessment",
@@ -38,11 +38,11 @@ const services: Record<string, ServiceDetails> = {
     request:
       "Message “ASSESSMENT” with your corridor and product, or use the enquiry form and select Trade Readiness Assessment.",
     boundary:
-      "GlobxLink coordinates — it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.",
+      "GlobxLink coordinates, it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.",
   },
   "provider-request": {
     title: "Find a Provider (Provider Request)",
-    description: "When you just need the right provider — a lighter way in.",
+    description: "When you just need the right provider, a lighter way in.",
     label: "The express lane",
     who:
       "Businesses that only need to find or check a provider for a defined requirement, and are not yet working on a full transaction.",

@@ -5,7 +5,7 @@ import ContentNav from "../content-nav";
 export const metadata: Metadata = {
   title: "Services | GlobxLink",
   description:
-    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your cross-border trade need.",
+    "Choose a Trade Readiness & Coordination Assessment or a Provider Request for your international trade need.",
 };
 
 const services = [
@@ -13,7 +13,7 @@ const services = [
     slug: "trade-readiness-assessment",
     title: "Trade Readiness & Coordination Assessment",
     description:
-      "A structured review of one cross-border transaction before you commit further.",
+      "A structured review of one international transaction before you commit further.",
     label: "Recommended · Start here",
   },
   {
@@ -50,7 +50,7 @@ export default function ServicesPage() {
         ))}
       </section>
       <p className="content-boundary">
-        GlobxLink coordinates cross-border trade. It does not hold or move
+        GlobxLink coordinates international trade. It does not hold or move
         funds, clear customs, forward freight, or guarantee outcomes. Scope and
         any further work are agreed before commitments are made.
       </p>
