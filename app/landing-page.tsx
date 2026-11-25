@@ -20,27 +20,18 @@ export function LandingPage() {
               {"International trade coordination"}
             </span>
             <h1>
-              {"The missing link between "}
-              <span className={"emphasis"}>
-                {"trade ambition"}
-              </span>
-              {" and execution."}
+              {"The Middle of Trade"}
             </h1>
             <p
       className={"lead"}>
-              {"GlobxLink is positioned around the operational middle of international trade, helping businesses bring structure, visibility, and better coordination to what happens between agreement and delivery."}
+              {"GlobxLink helps businesses bring structure, visibility, and coordination to what happens between agreement and delivery."}
             </p>
             <div
       className={"hero-actions"}>
               <a
       className={"btn primary gxl-trade-cta"}
-      href={"/trade-coordination/"}>
-                {"Start Trade Coordination ↗"}
-              </a>
-              <a
-      className={"btn secondary"}
-      href={"#platform"}>
-                {"Explore the Platform ↗"}
+      href={"#contact"}>
+                {"Discuss Your Trade Requirement ↗"}
               </a>
               <a
       className={"btn secondary"}
@@ -66,7 +57,7 @@ export function LandingPage() {
                 <b>
                   {"◎"}
                 </b>
-                {" Execution visibility"}
+                {" Execution monitoring & inspection"}
               </span>
             </div>
           </div>
@@ -74,33 +65,28 @@ export function LandingPage() {
       className={"globe-shell reveal"}
       id={"globe"}
       style={{"--delay": "100ms"} as CSSProperties}>
-            <div
-      className={"globe-head"}>
-              <strong>
-                {"Compare our globes"}
-              </strong>
+            <div className={"globe-head"}>
+              <strong>{"Compare our globes"}</strong>
               <div
       aria-label={"Globe styles"}
       className={"globe-switch"}
       role={"tablist"}>
                 <button
       aria-controls={"globe-tactical"}
-      aria-selected={"false"}
+      aria-selected={false}
       className={"globe-tab"}
       data-globe={"tactical"}
       id={"tab-tactical"}
-      role={"tab"}
-      type={"button"}>
+      role={"tab"}>
                   {"Tactical"}
                 </button>
                 <button
       aria-controls={"globe-interactive"}
-      aria-selected={"true"}
+      aria-selected={true}
       className={"globe-tab"}
       data-globe={"interactive"}
       id={"tab-interactive"}
-      role={"tab"}
-      type={"button"}>
+      role={"tab"}>
                   {"Interactive"}
                 </button>
               </div>
@@ -108,21 +94,24 @@ export function LandingPage() {
             <div
       className={"globe-viewport"}>
               <div
+      aria-hidden={true}
+      aria-labelledby={"tab-tactical"}
       className={"globe-screen"}
       id={"globe-tactical"}
-      role={"tabpanel"}
-      aria-labelledby={"tab-tactical"}>
+      role={"tabpanel"}>
                 <canvas
-      aria-label={"Tactical globe showing trade connections; drag to rotate"}
-      id={"canvas-tactical"}></canvas>
+      aria-label={"Interactive Tactical globe – drag to rotate"}
+      id={"canvas-tactical"}
+      tabIndex={0}></canvas>
               </div>
               <div
       className={"globe-screen current"}
       id={"globe-interactive"}
+      aria-hidden={false}
       aria-labelledby={"tab-interactive"}
       role={"tabpanel"}>
                 <canvas
-      aria-label={"Interactive globe showing trade connections; drag to rotate"}
+      aria-label={"Interactive Network globe – drag to rotate"}
       id={"canvas-interactive"}
       tabIndex={0}></canvas>
               </div>
@@ -141,9 +130,7 @@ export function LandingPage() {
                 {"Drag to rotate · Scroll to zoom"}
               </div>
             </div>
-            <div
-      className={"globe-source"}
-      id={"globeSource"}>
+            <div className={"globe-source"} id={"globeSource"}>
               {"Interactive"}
             </div>
           </div>
@@ -302,7 +289,13 @@ export function LandingPage() {
               {"Two ways in. One coordinated path."}
             </h2>
             <p className={"section-desc"}>
-              {"Most trade work starts with one of two needs, getting a transaction ready to run, or finding the right provider. Both can lead to coordinated execution through the middle of trade. Start with the Assessment for a full transaction; choose a Provider Request when you only need to find or check a provider."}
+              {"Most cross-border trade starts with one of two needs: finding a suitable provider or making an existing transaction ready for execution."}
+            </p>
+            <p className={"section-desc services-intro"}>
+              {"GlobxLink supports both. We help businesses assess potential providers, structure transaction requirements, monitor agreed commitments, coordinate inspections where needed, and address execution issues."}
+            </p>
+            <p className={"section-desc services-intro"}>
+              {"Start with a Trade Readiness & Coordination Assessment if you already have a transaction. Choose a Provider Request if you need help identifying suitable providers."}
             </p>
           </div>
           <div className={"service-offer-grid"}>
@@ -312,7 +305,7 @@ export function LandingPage() {
               </span>
               <h3>{"Trade Readiness & Coordination Assessment"}</h3>
               <p>
-                {"A structured review of one international transaction before you commit further."}
+                {"A structured review of your transaction’s requirements, counterparties, commitments and potential execution risks — with a path into ongoing monitoring and coordination where needed."}
               </p>
               <ul>
                 <li>{"Clarify what is confirmed, unconfirmed, and exposed"}</li>
@@ -397,14 +390,13 @@ export function LandingPage() {
                   <li>
                     {"Supplier introductions where available"}
                   </li>
-                  <li>
-                    {"Supplier and counterparty checks against available evidence"}
-                  </li>
+                  <li>{"Supplier and counterparty checks against available evidence"}</li>
+                  <li>{"Review of relevant provider claims and capabilities"}</li>
                   <li>
                     {"Commercial expectation clarification"}
                   </li>
                   <li>
-                    {"Intelligence focused on this corridor"}
+                    {"Corridor-specific intelligence"}
                   </li>
                 </ul>
               </div>
@@ -442,18 +434,17 @@ export function LandingPage() {
                 </p>
                 <ul
       className={"process-list"}>
-                  <li>
-                    {"Payment milestone mapping, buyer and supplier define terms; GlobxLink does not hold or move funds"}
-                  </li>
+                  <li>{"Payment milestone mapping"}</li>
                   <li>
                     {"Commercial terms and responsibilities"}
                   </li>
                   <li>
-                    {"Order specifications and requirements"}
+                    {"Product specifications and order requirements"}
                   </li>
                   <li>
-                    {"Documentation readiness"}
+                    {"Documentation requirements and readiness"}
                   </li>
+                  <li>{"Agreed execution milestones and checkpoints"}</li>
                 </ul>
               </div>
               <div
@@ -490,18 +481,13 @@ export function LandingPage() {
                 </p>
                 <ul
       className={"process-list"}>
-                  <li>
-                    {"Production follow up"}
-                  </li>
-                  <li>
-                    {"Quality and quantity checkpoints, with the parties or an appointed inspector"}
-                  </li>
-                  <li>
-                    {"Shipment readiness confirmation"}
-                  </li>
-                  <li>
-                    {"On site coordination where arranged"}
-                  </li>
+                  <li>{"Production progress monitoring against agreed milestones"}</li>
+                  <li>{"Basic physical checks by GlobxLink, including quantity, packaging, labels and visible product condition"}</li>
+                  <li>{"Coordination of specialised technical inspections through qualified inspection partners"}</li>
+                  <li>{"Comparison of inspection findings against agreed specifications"}</li>
+                  <li>{"Shipment-readiness checks and documentation follow-up"}</li>
+                  <li>{"Evidence collection and documentation of identified discrepancies"}</li>
+                  <li>{"On-the-ground coordination where arranged"}</li>
                 </ul>
               </div>
               <div
@@ -510,7 +496,7 @@ export function LandingPage() {
                   {"OUTCOME"}
                 </small>
                 <p>
-                  {"Fewer costly surprises before cargo leaves the supplier."}
+                  {"Greater visibility into whether agreed requirements are being met, with discrepancies identified and documented before they become bigger problems."}
                 </p>
               </div>
             </article>
@@ -538,18 +524,12 @@ export function LandingPage() {
                 </p>
                 <ul
       className={"process-list"}>
-                  <li>
-                    {"Stakeholder communication"}
-                  </li>
-                  <li>
-                    {"Issue escalation support"}
-                  </li>
-                  <li>
-                    {"Logistics coordination"}
-                  </li>
-                  <li>
-                    {"International continuity management"}
-                  </li>
+                  <li>{"Stakeholder communication and follow-up"}</li>
+                  <li>{"Follow-through on agreed responsibilities and commitments"}</li>
+                  <li>{"Coordination of corrective actions when discrepancies arise"}</li>
+                  <li>{"Coordination with suppliers, buyers and relevant service providers"}</li>
+                  <li>{"Logistics-related communication and handoff coordination"}</li>
+                  <li>{"Documentation of decisions and outstanding actions"}</li>
                 </ul>
               </div>
               <div
@@ -558,11 +538,34 @@ export function LandingPage() {
                   {"OUTCOME"}
                 </small>
                 <p>
-                  {"Problems become manageable instead of damaging to relationships."}
+                  {"Execution issues become visible, documented and easier for the responsible parties to address."}
                 </p>
               </div>
             </article>
           </div>
+          <aside className={"inspection-callout"}>
+            <div>
+              <span className={"inspection-kicker"}>{"Inspection & Field Checks"}</span>
+              <h3>{"From agreed requirements to physical checks"}</h3>
+            </div>
+            <div className={"inspection-copy"}>
+              <p>
+                {"Agreements are only useful when both parties understand what needs to be delivered and whether it meets the agreed requirements."}
+              </p>
+              <p>
+                {"GlobxLink can conduct basic physical checks directly, including quantity, packaging, labels and visible product condition."}
+              </p>
+              <p>
+                {"For specialised technical requirements, we coordinate inspections through qualified inspection partners."}
+              </p>
+              <p>
+                {"Findings are documented and compared against the agreed criteria, helping buyers and suppliers identify discrepancies and determine the next steps."}
+              </p>
+              <small>
+                {"The scope of every inspection is agreed in advance. Basic field checks do not replace specialised technical testing or formal certification."}
+              </small>
+            </div>
+          </aside>
           <p
       className={"process-bottom reveal"}>
             {"Less uncertainty. More coordinated action."}
@@ -682,17 +685,17 @@ export function LandingPage() {
       className={"industry-media"}>
                 <img
       alt={"Medical supplies"}
-      src={"/images/industries/medical-supplies.png"} />
+      src={"/images/industries/medical-supplies.webp"} />
               </div>
               <span
       className={"industry-no"}>
                 {"05 / INDUSTRY"}
               </span>
               <h3>
-                {"Medical Supplies & Healthcare Products"}
+                {"Packaging & Industrial Supplies"}
               </h3>
               <p>
-                {"Medical consumables, equipment, and healthcare procurement. Compliance and reliability matter."}
+                {"Packaging materials, industrial packaging, consumables and essential business supplies. Product specifications, quality consistency and delivery requirements matter."}
               </p>
             </article>
           </div>
@@ -716,7 +719,7 @@ export function LandingPage() {
               {"Coordinating the space between markets."}
             </h2>
             <p>
-              {"Our initial commercial focus is the Africa to Türkiye corridor. Different geographies bring different documentation, timing, language, and operational considerations; a clear coordination framework helps make those moving parts visible."}
+              {"Our initial commercial focus is the Africa–Türkiye trade corridor, connecting businesses and opportunities across both markets. China remains part of our broader international trade context."}
             </p>
             <div
       className={"corridor-tags"}>
@@ -763,7 +766,7 @@ export function LandingPage() {
             </h2>
             <p
       className={"section-desc"}>
-              {"GlobxLink is a coordination service. This illustrative interface describes a possible way to organize the work; it is not a live product or trade record."}
+              {"GlobxLink is a coordination service. This illustrative concept shows one way to organise the work; it is not a live product or trade record."}
             </p>
             <div
       className={"platform-bullets"}>
@@ -771,62 +774,62 @@ export function LandingPage() {
                 <b>
                   {"✓"}
                 </b>
-                {" Define roles and expectations before commitment."}
+                {" Clarify requirements, roles and responsibilities."}
               </p>
               <p>
                 <b>
                   {"✓"}
                 </b>
-                {" Organize milestones and responsibilities."}
+                {" Organise milestones and execution checkpoints."}
               </p>
               <p>
                 <b>
                   {"✓"}
                 </b>
-                {" Keep progress and documentation visible."}
+                {" Keep progress, inspection findings and documentation visible."}
               </p>
               <p>
                 <b>
                   {"✓"}
                 </b>
-                {" Escalate issues through clear procedures."}
+                {" Identify discrepancies and coordinate follow-up actions."}
               </p>
             </div>
           </div>
           <div className={"workflow-ui reveal"} style={{"--delay": "100ms"} as CSSProperties}>
             <header>
-              <strong>{"Trade Readiness Workspace"}</strong>
-              <span className={"concept-pill"}>{"Concept preview"}</span>
+              <strong>{"Illustrative coordination flow"}</strong>
+              <span className={"concept-pill"}>{"Illustrative"}</span>
             </header>
             <div className={"workspace-row"}>
               <span className={"mark"}>{"1"}</span>
               <div>
-                <strong>{"Counterparty verification"}</strong>
+                <strong>{"Requirements and responsibilities"}</strong>
                 <br />
-                <small>{"Evidence and identity review"}</small>
+                <small>{"Counterparty checks and available evidence"}</small>
               </div>
-              <span className={"concept-pill"}>{"Verified"}</span>
+              <span className={"concept-pill"}>{"Review"}</span>
             </div>
             <div className={"workspace-row"}>
               <span className={"mark"}>{"2"}</span>
               <div>
-                <strong>{"Terms and milestones"}</strong>
+                <strong>{"Agreed milestones"}</strong>
                 <br />
-                <small>{"Responsibilities and checkpoints"}</small>
+                <small>{"Execution and inspection checkpoints"}</small>
               </div>
-              <span className={"concept-pill"}>{"Structured"}</span>
+              <span className={"concept-pill"}>{"Structure"}</span>
             </div>
             <div className={"workspace-row"}>
               <span className={"mark"}>{"3"}</span>
               <div>
-                <strong>{"Execution coordination"}</strong>
+                <strong>{"Progress and follow-up"}</strong>
                 <br />
-                <small>{"Progress, documents, and follow-up"}</small>
+                <small>{"Discrepancies and documentation"}</small>
               </div>
-              <span className={"concept-pill"}>{"Tracking"}</span>
+              <span className={"concept-pill"}>{"Coordinate"}</span>
             </div>
             <footer>
-              {"Illustrative only · A coordination concept, not a live trade record"}
+              {"Not a live product or trade record"}
             </footer>
           </div>
         </div>
@@ -972,19 +975,16 @@ export function LandingPage() {
             <div>
               <span
       className={"label"}>
-                {"The Team"}
+                {"Meet the team"}
               </span>
               <h2
       className={"section-title"}
       id={"founders-heading"}>
-                {"People working across the middle of trade."}
+                {"The people behind GlobxLink."}
               </h2>
               <p
       className={"section-desc"}>
-                {"We started GlobxLink to address the operational realities of international trade through practical coordination and clearer handoffs."}
-              </p>
-              <p className={"team-context"}>
-                {"A team of six across China, Türkiye, and Africa, plus remote engineering, with people joining as we partner and hire."}
+                {"Bringing together trade expertise, technology, and creative communication to make cross-border coordination clearer."}
               </p>
             </div>
           </div>
@@ -1023,7 +1023,7 @@ export function LandingPage() {
                 </p>
                 <p
       className={"founder-biography"}>
-                  {"Founder focused on facilitating international trade between African and Turkish businesses, coordinating supplier interactions and daily execution across language, culture, and operational complexity."}
+                  {"Founder with 6+ years coordinating transactions between African and Turkish businesses. Deep corridor knowledge in supplier coordination, transaction execution, and on-the-ground trade support across language, culture, and operational complexity."}
                 </p>
                 <div
       className={"founder-socials"}>
@@ -1106,14 +1106,14 @@ export function LandingPage() {
       className={"founder-copy"}>
                 <span
       className={"founder-role"}>
-                  {"Cofounder"}
+                  {"Co-Founder"}
                 </span>
                 <h3>
                   {"Abdul Nasir"}
                 </h3>
                 <p
       className={"founder-biography"}>
-                  {"Product engineer leading the design of the GlobxLink coordination workspace concept, milestone structure, documentation flow, and partner integrations. Background in financial services systems where settlement evidence is essential."}
+                  {"Product engineer leading the GlobxLink coordination workspace, payment milestones, escrow execution logic, and partner integrations. Background in financial services systems where settlement evidence is non-negotiable."}
                 </p>
                 <div
       className={"founder-socials"}>
@@ -1198,14 +1198,14 @@ export function LandingPage() {
       className={"founder-copy"}>
                 <span
       className={"founder-role"}>
-                  {"Cofounder"}
+                  {"Co-Founder"}
                 </span>
                 <h3>
                   {"Santhosh Patel"}
                 </h3>
                 <p
       className={"founder-biography"}>
-                  {"Systems engineer responsible for verification tooling and workflows. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to depend on in real transactions."}
+                  {"Systems engineer responsible for verification infrastructure and operational tooling. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to bet money on."}
                 </p>
                 <div
       className={"founder-socials"}>
@@ -1250,6 +1250,105 @@ export function LandingPage() {
                 </div>
               </div>
             </article>
+            <article
+      className={"founder-profile team-creative-profile"}
+      style={{"--delay": "240ms"} as CSSProperties}>
+              <div
+      aria-label={"Photo of Nour Eddin Hamada"}
+      className={"founder-mark founder-portrait"}>
+                <span
+      aria-hidden={"true"}
+      className={"founder-photo-fallback"}>
+                  {"NH"}
+                </span>
+                <img
+      alt={"Nour Eddin Hamada — updated personal portrait"}
+      className={"founder-photo"}
+      decoding={"async"}
+      height={720}
+      loading={"lazy"}
+      src={"/images/Team/Nour%20Eddin%20Hamada.webp"}
+      width={720} />
+              </div>
+              <div className={"founder-copy"}>
+                <span className={"founder-role"}>
+                  {"Art Director & Creative Designer"}
+                </span>
+                <h3>{"Nour Eddin Hamada"}</h3>
+                <p className={"founder-biography"}>
+                  {"Art director and multidisciplinary designer with 7+ years of experience in visual identity, digital design, motion, and AI-assisted creative production."}
+                </p>
+                <div
+      aria-label={"Nour Eddin Hamada social links"}
+      className={"founder-socials"}>
+                  <a
+      aria-label={"Nour Eddin Hamada — Website"}
+      href={"https://www.nour-eddin.art/"}
+      rel={"noopener noreferrer"}
+      target={"_blank"}
+      title={"Personal website"}>
+                    <svg
+      aria-hidden={"true"}
+      fill={"none"}
+      height={18}
+      stroke={"currentColor"}
+      strokeLinecap={"round"}
+      strokeWidth={"1.8"}
+      viewBox={"0 0 24 24"}
+      width={18}>
+                      <circle cx={12} cy={12} r={9}></circle>
+                      <path
+      d={"M3 12h18M12 3c3 3 4.5 6 4.5 9s-1.5 6-4.5 9M12 3c-3 3-4.5 6-4.5 9s1.5 6 4.5 9"}></path>
+                    </svg>
+                  </a>
+                  <a
+      aria-label={"Nour Eddin Hamada — Instagram"}
+      href={"https://www.instagram.com/nour_eddin_ha/"}
+      rel={"noopener noreferrer"}
+      target={"_blank"}
+      title={"Instagram"}>
+                    <svg
+      aria-hidden={"true"}
+      fill={"none"}
+      height={18}
+      stroke={"currentColor"}
+      strokeWidth={"1.8"}
+      viewBox={"0 0 24 24"}
+      width={18}>
+                      <rect
+      height={18}
+      rx={5}
+      width={18}
+      x={3}
+      y={3}></rect>
+                      <circle cx={12} cy={12} r={4}></circle>
+                      <circle
+      cx={17.5}
+      cy={6.8}
+      fill={"currentColor"}
+      r={1}
+      stroke={"none"}></circle>
+                    </svg>
+                  </a>
+                  <a
+      aria-label={"Nour Eddin Hamada — LinkedIn"}
+      href={"https://www.linkedin.com/in/nour-hamadeh"}
+      rel={"noopener noreferrer"}
+      target={"_blank"}
+      title={"LinkedIn"}>
+                    <svg
+      aria-hidden={"true"}
+      fill={"currentColor"}
+      height={17}
+      viewBox={"0 0 24 24"}
+      width={17}>
+                      <path
+      d={"M4.98 3.5A2.48 2.48 0 1 0 5 8.46a2.48 2.48 0 0 0-.02-4.96ZM3 9.4h4v11.7H3V9.4Zm6.3 0h3.8V11h.1c.6-1.1 1.9-1.9 3.8-1.9 4.1 0 4.9 2.7 4.9 6.1v5.9h-4v-5.2c0-1.2 0-2.8-2-2.8-2.1 0-2.5 1.5-2.5 2.7v5.3h-4V9.4Z"}></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -1266,15 +1365,15 @@ export function LandingPage() {
             </span>
             <h2
       className={"section-title"}>
-              {"We focus on what happens between the big decisions."}
+              {"We help businesses move from commercial agreement to actual execution with greater structure, visibility and follow-through."}
             </h2>
             <p
       className={"section-desc"}>
-              {"We focus on the operational middle of international trade, where commercial confidence depends on trust, coordination, and practical execution."}
+              {"Before execution, we help clarify requirements, assess counterparties and structure commitments. During execution, we monitor progress, conduct basic physical checks and coordinate specialised inspections."}
             </p>
             <p
       className={"about-text"}>
-              {"Trade is a chain of commitments. Every commercial journey involves people, information, payments, processes, and changing conditions. Bringing those elements into a connected framework is the central idea behind GlobxLink."}
+              {"When something goes wrong, we document discrepancies, communicate with the relevant parties and coordinate follow-up actions. Our service is focused on practical execution support, not a future software platform."}
             </p>
             <div className={"about-links"}>
               <a href={"#how"}>{"How It Works →"}</a>
@@ -1371,7 +1470,10 @@ export function LandingPage() {
                 {"Trade Readiness Assessment"}
               </span>
               <span>
-                {"Partnerships"}
+                {"Partnership"}
+              </span>
+              <span>
+                {"General Enquiry"}
               </span>
             </div>
           </div>
@@ -1410,7 +1512,7 @@ export function LandingPage() {
       src={"/logos/footer-logo.svg"} />
             </a>
             <p>
-              {"A coordination service for the middle of international trade, where clear expectations, visibility, and practical follow through matter."}
+              {"Cross-border trade coordination and execution support, bringing structure, visibility and follow-through to the space between agreement and delivery."}
             </p>
             <div
       aria-label={"Social media"}
@@ -1558,7 +1660,7 @@ export function LandingPage() {
           </div>
         </div>
         <p className={"footer-claims"}>
-          {"GlobxLink coordinates international trade. It is not a marketplace, freight forwarder, customs broker, or payment provider, and does not guarantee delivery, verification of all suppliers, or transaction outcomes."}
+          {"GlobxLink provides cross-border trade coordination and execution support. It is not a marketplace, freight forwarder, customs broker or payment provider, and does not guarantee supplier performance, product quality, delivery or transaction outcomes. Basic physical checks are conducted within an agreed scope; specialised technical inspections are coordinated through qualified partners. GlobxLink does not hold or move funds."}
         </p>
         <div
       className={"footer-bottom"}>

@@ -455,6 +455,300 @@
     "← Return to the inquiry form": "← Retour au formulaire de demande",
   });
 
+  Object.assign(copy.tr, {
+    About: "Hakkımızda",
+    Contact: "İletişim",
+    "The Middle of Trade": "Ticaretin Merkezi",
+    "GlobxLink helps businesses bring structure, visibility, and coordination to what happens between agreement and delivery.":
+      "GlobxLink, işletmelerin anlaşma ile teslimat arasında yaşanan süreçlere yapı, görünürlük ve koordinasyon kazandırmasına yardımcı olur.",
+    "Discuss Your Trade Requirement ↗": "Ticaret İhtiyacınızı Görüşelim ↗",
+    "Execution monitoring & inspection": "Uygulama takibi ve denetim",
+    "Express lane": "Hızlı başlangıç",
+    "Trade connections globe; drag to rotate": "Ticaret bağlantıları küresi; döndürmek için sürükleyin",
+    "Packaging materials, industrial packaging, consumables, and business supplies":
+      "Ambalaj malzemeleri, endüstriyel ambalajlar, sarf malzemeleri ve iş ihtiyaçları",
+    "Most cross-border trade starts with one of two needs: finding a suitable provider or making an existing transaction ready for execution.":
+      "Sınır ötesi ticaret genellikle iki ihtiyaçtan biriyle başlar: uygun bir sağlayıcı bulmak veya mevcut bir işlemi uygulamaya hazırlamak.",
+    "GlobxLink supports both. We help businesses assess potential providers, structure transaction requirements, monitor agreed commitments, coordinate inspections where needed, and address execution issues.":
+      "GlobxLink her iki ihtiyacı da destekler. İşletmelerin potansiyel sağlayıcıları değerlendirmesine, işlem gereksinimlerini yapılandırmasına, kararlaştırılan taahhütleri izlemesine, gerektiğinde denetimleri koordine etmesine ve uygulama sorunlarını ele almasına yardımcı oluruz.",
+    "Start with a Trade Readiness & Coordination Assessment if you already have a transaction. Choose a Provider Request if you need help identifying suitable providers.":
+      "Halihazırda bir işleminiz varsa Ticaret Hazırlık ve Koordinasyon Değerlendirmesi ile başlayın. Uygun sağlayıcıları belirleme konusunda yardıma ihtiyacınız varsa Sağlayıcı Talebi’ni seçin.",
+    "A structured review of your transaction’s requirements, counterparties, commitments and potential execution risks — with a path into ongoing monitoring and coordination where needed.":
+      "İşleminizin gereksinimlerini, karşı taraflarını, taahhütlerini ve olası uygulama risklerini yapılandırılmış biçimde inceleyerek gerektiğinde sürekli izleme ve koordinasyona geçiş imkânı sunar.",
+    "Review of relevant provider claims and capabilities": "İlgili sağlayıcı iddialarının ve yetkinliklerinin incelenmesi",
+    "Corridor-specific intelligence": "Koridora özgü bilgiler",
+    "Payment milestone mapping": "Ödeme kilometre taşlarının eşleştirilmesi",
+    "Product specifications and order requirements": "Ürün özellikleri ve sipariş gereksinimleri",
+    "Documentation requirements and readiness": "Belge gereksinimleri ve hazırlık durumu",
+    "Agreed execution milestones and checkpoints": "Kararlaştırılan uygulama kilometre taşları ve kontrol noktaları",
+    "Production progress monitoring against agreed milestones": "Üretim ilerlemesinin kararlaştırılan kilometre taşlarına göre izlenmesi",
+    "Basic physical checks by GlobxLink, including quantity, packaging, labels and visible product condition":
+      "GlobxLink tarafından miktar, ambalaj, etiketler ve ürünün gözle görülebilen durumu dâhil temel fiziksel kontroller",
+    "Coordination of specialised technical inspections through qualified inspection partners":
+      "Uzman teknik denetimlerin yetkin denetim ortakları aracılığıyla koordine edilmesi",
+    "Comparison of inspection findings against agreed specifications": "Denetim bulgularının kararlaştırılan özelliklerle karşılaştırılması",
+    "Shipment-readiness checks and documentation follow-up": "Sevkiyata hazırlık kontrolleri ve belge takibi",
+    "Evidence collection and documentation of identified discrepancies": "Kanıtların toplanması ve belirlenen farklılıkların belgelenmesi",
+    "On-the-ground coordination where arranged": "Kararlaştırıldığı durumlarda sahada koordinasyon",
+    "Greater visibility into whether agreed requirements are being met, with discrepancies identified and documented before they become bigger problems.":
+      "Kararlaştırılan gereksinimlerin karşılanıp karşılanmadığı konusunda daha fazla görünürlük; farklılıkların büyümeden önce belirlenip belgelenmesi.",
+    "Stakeholder communication and follow-up": "Paydaşlarla iletişim ve takip",
+    "Follow-through on agreed responsibilities and commitments": "Kararlaştırılan sorumlulukların ve taahhütlerin takibi",
+    "Coordination of corrective actions when discrepancies arise": "Farklılıklar ortaya çıktığında düzeltici faaliyetlerin koordine edilmesi",
+    "Coordination with suppliers, buyers and relevant service providers": "Tedarikçiler, alıcılar ve ilgili hizmet sağlayıcılarla koordinasyon",
+    "Logistics-related communication and handoff coordination": "Lojistikle ilgili iletişim ve devir koordinasyonu",
+    "Documentation of decisions and outstanding actions": "Kararların ve tamamlanmamış işlerin belgelenmesi",
+    "Execution issues become visible, documented and easier for the responsible parties to address.":
+      "Uygulama sorunları görünür ve belgelenmiş hâle gelir; sorumlu tarafların ele alması kolaylaşır.",
+    "Inspection & Field Checks": "Denetim ve Saha Kontrolleri",
+    "From agreed requirements to physical checks": "Kararlaştırılan gereksinimlerden fiziksel kontrollere",
+    "Agreements are only useful when both parties understand what needs to be delivered and whether it meets the agreed requirements.":
+      "Anlaşmalar, ancak her iki taraf da neyin teslim edilmesi gerektiğini ve bunun kararlaştırılan gereksinimleri karşılayıp karşılamadığını anladığında işe yarar.",
+    "GlobxLink can conduct basic physical checks directly, including quantity, packaging, labels and visible product condition.":
+      "GlobxLink; miktar, ambalaj, etiketler ve ürünün gözle görülebilen durumu dâhil temel fiziksel kontrolleri doğrudan gerçekleştirebilir.",
+    "For specialised technical requirements, we coordinate inspections through qualified inspection partners.":
+      "Uzmanlık gerektiren teknik gereksinimler için denetimleri yetkin denetim ortakları aracılığıyla koordine ederiz.",
+    "Findings are documented and compared against the agreed criteria, helping buyers and suppliers identify discrepancies and determine the next steps.":
+      "Bulgular belgelenir ve kararlaştırılan ölçütlerle karşılaştırılır; böylece alıcılar ve tedarikçiler farklılıkları belirleyip sonraki adımlara karar verebilir.",
+    "The scope of every inspection is agreed in advance. Basic field checks do not replace specialised technical testing or formal certification.":
+      "Her denetimin kapsamı önceden kararlaştırılır. Temel saha kontrolleri, uzman teknik testlerin veya resmî sertifikasyonun yerine geçmez.",
+    "Packaging & Industrial Supplies": "Ambalaj ve Endüstriyel Malzemeler",
+    "Packaging materials, industrial packaging, consumables and essential business supplies. Product specifications, quality consistency and delivery requirements matter.":
+      "Ambalaj malzemeleri, endüstriyel ambalajlar, sarf malzemeleri ve temel iş ihtiyaçları. Ürün özellikleri, kalite tutarlılığı ve teslimat gereksinimleri önemlidir.",
+    "Our initial commercial focus is the Africa–Türkiye trade corridor, connecting businesses and opportunities across both markets. China remains part of our broader international trade context.":
+      "İlk ticari odağımız, iki pazardaki işletmeleri ve fırsatları birbirine bağlayan Afrika–Türkiye ticaret koridorudur. Çin, daha geniş uluslararası ticaret bağlamımızın bir parçası olmaya devam eder.",
+    "How coordination works, a concept view.": "Koordinasyon nasıl işler: kavramsal bir görünüm.",
+    "GlobxLink is a coordination service. This illustrative concept shows one way to organise the work; it is not a live product or trade record.":
+      "GlobxLink bir koordinasyon hizmetidir. Bu örnek konsept, işlerin düzenlenmesine yönelik bir yaklaşımı gösterir; canlı bir ürün veya ticaret kaydı değildir.",
+    "Clarify requirements, roles and responsibilities.": "Gereksinimleri, rolleri ve sorumlulukları netleştirin.",
+    "Organise milestones and execution checkpoints.": "Kilometre taşlarını ve uygulama kontrol noktalarını düzenleyin.",
+    "Keep progress, inspection findings and documentation visible.": "İlerlemeyi, denetim bulgularını ve belgeleri görünür tutun.",
+    "Identify discrepancies and coordinate follow-up actions.": "Farklılıkları belirleyin ve takip faaliyetlerini koordine edin.",
+    "Illustrative coordination flow": "Örnek koordinasyon akışı",
+    Illustrative: "Örnek",
+    "Requirements and responsibilities": "Gereksinimler ve sorumluluklar",
+    "Counterparty checks and available evidence": "Karşı taraf kontrolleri ve mevcut kanıtlar",
+    Review: "İnceleme",
+    "Agreed milestones": "Kararlaştırılan kilometre taşları",
+    "Execution and inspection checkpoints": "Uygulama ve denetim kontrol noktaları",
+    Structure: "Yapılandırma",
+    "Progress and follow-up": "İlerleme ve takip",
+    "Discrepancies and documentation": "Farklılıklar ve belgeler",
+    Coordinate: "Koordinasyon",
+    "Not a live product or trade record": "Canlı bir ürün veya ticaret kaydı değildir",
+    "Planned role · Recruitment": "Planlanan pozisyon · İşe alım",
+    "Operations / Field Coordination": "Operasyon / Saha Koordinasyonu",
+    "Containers and checklist representing operations coordination":
+      "Operasyon koordinasyonunu temsil eden konteynerler ve kontrol listesi",
+    "Supports supplier follow-up, field coordination, execution monitoring and on-the-ground operational activities.":
+      "Tedarikçi takibini, saha koordinasyonunu, uygulama izlemeyi ve sahadaki operasyonel faaliyetleri destekler.",
+    "We help businesses move from commercial agreement to actual execution with greater structure, visibility and follow-through.":
+      "İşletmelerin ticari anlaşmadan fiilî uygulamaya daha fazla yapı, görünürlük ve takip ile geçmesine yardımcı oluyoruz.",
+    "Before execution, we help clarify requirements, assess counterparties and structure commitments. During execution, we monitor progress, conduct basic physical checks and coordinate specialised inspections.":
+      "Uygulama öncesinde gereksinimleri netleştirmeye, karşı tarafları değerlendirmeye ve taahhütleri yapılandırmaya yardımcı oluruz. Uygulama sırasında ilerlemeyi izler, temel fiziksel kontroller yapar ve uzman denetimleri koordine ederiz.",
+    "When something goes wrong, we document discrepancies, communicate with the relevant parties and coordinate follow-up actions. Our service is focused on practical execution support, not a future software platform.":
+      "Bir sorun çıktığında farklılıkları belgeler, ilgili taraflarla iletişim kurar ve takip faaliyetlerini koordine ederiz. Hizmetimiz gelecekteki bir yazılım platformuna değil, pratik uygulama desteğine odaklanır.",
+    "GlobxLink provides cross-border trade coordination and execution support. It is not a marketplace, freight forwarder, customs broker or payment provider, and does not guarantee supplier performance, product quality, delivery or transaction outcomes. Basic physical checks are conducted within an agreed scope; specialised technical inspections are coordinated through qualified partners. GlobxLink does not hold or move funds.":
+      "GlobxLink, sınır ötesi ticaret koordinasyonu ve uygulama desteği sağlar. Bir pazaryeri, nakliye komisyoncusu, gümrük müşaviri veya ödeme sağlayıcısı değildir; tedarikçi performansını, ürün kalitesini, teslimatı veya işlem sonuçlarını garanti etmez. Temel fiziksel kontroller kararlaştırılan kapsamda yapılır; uzman teknik denetimler yetkin ortaklar aracılığıyla koordine edilir. GlobxLink fon tutmaz veya aktarmaz.",
+    "Cross-border trade coordination and execution support, bringing structure, visibility and follow-through to the space between agreement and delivery.":
+      "Anlaşma ile teslimat arasındaki sürece yapı, görünürlük ve takip kazandıran sınır ötesi ticaret koordinasyonu ve uygulama desteği.",
+    "A structured review of one cross-border transaction, including:":
+      "Aşağıdakileri kapsayan tek bir sınır ötesi işlemin yapılandırılmış incelemesi:",
+    "Corridor and market considerations.": "Koridor ve pazar değerlendirmeleri.",
+    "Product specifications and requirements.": "Ürün özellikleri ve gereksinimleri.",
+    "Counterparty status and available evidence.": "Karşı tarafın durumu ve mevcut kanıtlar.",
+    "Commercial terms and responsibilities.": "Ticari koşullar ve sorumluluklar.",
+    "Documentation and payment milestones.": "Belgeler ve ödeme kilometre taşları.",
+    "Production, inspection and shipment checkpoints.": "Üretim, denetim ve sevkiyat kontrol noktaları.",
+    "Potential execution risks and unresolved dependencies.": "Olası uygulama riskleri ve çözümlenmemiş bağımlılıklar.",
+    "A structured assessment showing:": "Aşağıdakileri gösteren yapılandırılmış bir değerlendirme:",
+    "What has been confirmed.": "Nelerin doğrulandığı.",
+    "What remains unconfirmed.": "Nelerin henüz doğrulanmadığı.",
+    "What could expose the transaction to delays or execution problems.":
+      "İşlemi gecikme veya uygulama sorunlarına maruz bırakabilecek unsurlar.",
+    "Which requirements and commitments need attention.": "Hangi gereksinimlerin ve taahhütlerin ele alınması gerektiği.",
+    "What milestones and checkpoints should be monitored.": "Hangi kilometre taşlarının ve kontrol noktalarının izlenmesi gerektiği.",
+    "Recommended next steps, including potential inspection and coordination support where appropriate.":
+      "Uygun olduğunda olası denetim ve koordinasyon desteği dâhil önerilen sonraki adımlar.",
+    "Ongoing Execution Support": "Sürekli Uygulama Desteği",
+    "Depending on the agreed scope, GlobxLink can monitor transaction milestones, conduct basic physical checks, coordinate specialised technical inspections through qualified partners, document discrepancies and coordinate follow-up actions.":
+      "Kararlaştırılan kapsama bağlı olarak GlobxLink işlem kilometre taşlarını izleyebilir, temel fiziksel kontroller yapabilir, uzman teknik denetimleri yetkin ortaklar aracılığıyla koordine edebilir, farklılıkları belgeleyebilir ve takip faaliyetlerini koordine edebilir.",
+    "GlobxLink provides cross-border trade coordination and execution support. It does not hold or move funds, clear customs, or forward freight, and does not guarantee supplier performance, product quality, delivery, or transaction outcomes. Basic physical checks follow an agreed scope; specialised technical inspections are coordinated through qualified partners.":
+      "GlobxLink sınır ötesi ticaret koordinasyonu ve uygulama desteği sağlar. Fon tutmaz veya aktarmaz, gümrük işlemi yapmaz, yük taşımacılığı üstlenmez; tedarikçi performansını, ürün kalitesini, teslimatı veya işlem sonuçlarını garanti etmez. Temel fiziksel kontroller kararlaştırılan kapsamda yapılır; uzman teknik denetimler yetkin ortaklar aracılığıyla koordine edilir.",
+    "Contact ↗": "İletişim ↗",
+  });
+
+  Object.assign(copy.fr, {
+    About: "À propos",
+    Contact: "Contact",
+    "The Middle of Trade": "Au cœur du commerce",
+    "GlobxLink helps businesses bring structure, visibility, and coordination to what happens between agreement and delivery.":
+      "GlobxLink aide les entreprises à structurer, rendre visible et coordonner les opérations entre l’accord et la livraison.",
+    "Discuss Your Trade Requirement ↗": "Parlons de votre besoin commercial ↗",
+    "Execution monitoring & inspection": "Suivi et inspection de l’exécution",
+    "Express lane": "Parcours express",
+    "Trade connections globe; drag to rotate": "Globe des échanges commerciaux ; faites glisser pour le faire tourner",
+    "Packaging materials, industrial packaging, consumables, and business supplies":
+      "Matériaux d’emballage, emballages industriels, consommables et fournitures professionnelles",
+    "Most cross-border trade starts with one of two needs: finding a suitable provider or making an existing transaction ready for execution.":
+      "La plupart des échanges transfrontaliers commencent par l’un de ces besoins : trouver un prestataire adapté ou préparer une transaction existante à l’exécution.",
+    "GlobxLink supports both. We help businesses assess potential providers, structure transaction requirements, monitor agreed commitments, coordinate inspections where needed, and address execution issues.":
+      "GlobxLink répond à ces deux besoins. Nous aidons les entreprises à évaluer des prestataires potentiels, structurer les exigences de la transaction, suivre les engagements convenus, coordonner les inspections nécessaires et traiter les problèmes d’exécution.",
+    "Start with a Trade Readiness & Coordination Assessment if you already have a transaction. Choose a Provider Request if you need help identifying suitable providers.":
+      "Commencez par une évaluation de préparation et de coordination si vous avez déjà une transaction. Choisissez une demande de prestataire si vous avez besoin d’aide pour en identifier un adapté.",
+    "A structured review of your transaction’s requirements, counterparties, commitments and potential execution risks — with a path into ongoing monitoring and coordination where needed.":
+      "Un examen structuré des exigences, contreparties, engagements et risques d’exécution potentiels de votre transaction, avec la possibilité d’un suivi et d’une coordination continus si nécessaire.",
+    "Review of relevant provider claims and capabilities": "Examen des déclarations et capacités pertinentes du prestataire",
+    "Corridor-specific intelligence": "Informations propres au corridor",
+    "Payment milestone mapping": "Cartographie des jalons de paiement",
+    "Product specifications and order requirements": "Spécifications du produit et exigences de la commande",
+    "Documentation requirements and readiness": "Exigences documentaires et état de préparation",
+    "Agreed execution milestones and checkpoints": "Jalons et points de contrôle d’exécution convenus",
+    "Production progress monitoring against agreed milestones": "Suivi de l’avancement de la production selon les jalons convenus",
+    "Basic physical checks by GlobxLink, including quantity, packaging, labels and visible product condition":
+      "Contrôles physiques de base par GlobxLink, portant notamment sur la quantité, l’emballage, les étiquettes et l’état visible du produit",
+    "Coordination of specialised technical inspections through qualified inspection partners":
+      "Coordination d’inspections techniques spécialisées par des partenaires qualifiés",
+    "Comparison of inspection findings against agreed specifications": "Comparaison des résultats d’inspection avec les spécifications convenues",
+    "Shipment-readiness checks and documentation follow-up": "Contrôles de préparation à l’expédition et suivi documentaire",
+    "Evidence collection and documentation of identified discrepancies": "Collecte de preuves et documentation des écarts constatés",
+    "On-the-ground coordination where arranged": "Coordination sur le terrain lorsqu’elle est convenue",
+    "Greater visibility into whether agreed requirements are being met, with discrepancies identified and documented before they become bigger problems.":
+      "Une meilleure visibilité sur le respect des exigences convenues, avec l’identification et la documentation des écarts avant qu’ils ne deviennent plus importants.",
+    "Stakeholder communication and follow-up": "Communication et suivi avec les parties prenantes",
+    "Follow-through on agreed responsibilities and commitments": "Suivi des responsabilités et engagements convenus",
+    "Coordination of corrective actions when discrepancies arise": "Coordination des actions correctives en cas d’écart",
+    "Coordination with suppliers, buyers and relevant service providers": "Coordination avec les fournisseurs, acheteurs et prestataires concernés",
+    "Logistics-related communication and handoff coordination": "Communication logistique et coordination des relais",
+    "Documentation of decisions and outstanding actions": "Documentation des décisions et actions en attente",
+    "Execution issues become visible, documented and easier for the responsible parties to address.":
+      "Les problèmes d’exécution deviennent visibles, documentés et plus faciles à traiter par les parties responsables.",
+    "Inspection & Field Checks": "Inspection et contrôles sur le terrain",
+    "From agreed requirements to physical checks": "Des exigences convenues aux contrôles physiques",
+    "Agreements are only useful when both parties understand what needs to be delivered and whether it meets the agreed requirements.":
+      "Un accord n’est utile que si les deux parties comprennent ce qui doit être livré et si cela répond aux exigences convenues.",
+    "GlobxLink can conduct basic physical checks directly, including quantity, packaging, labels and visible product condition.":
+      "GlobxLink peut réaliser directement des contrôles physiques de base, notamment sur la quantité, l’emballage, les étiquettes et l’état visible du produit.",
+    "For specialised technical requirements, we coordinate inspections through qualified inspection partners.":
+      "Pour les exigences techniques spécialisées, nous coordonnons les inspections avec des partenaires qualifiés.",
+    "Findings are documented and compared against the agreed criteria, helping buyers and suppliers identify discrepancies and determine the next steps.":
+      "Les résultats sont documentés et comparés aux critères convenus, afin d’aider acheteurs et fournisseurs à identifier les écarts et à définir les prochaines étapes.",
+    "The scope of every inspection is agreed in advance. Basic field checks do not replace specialised technical testing or formal certification.":
+      "Le périmètre de chaque inspection est convenu à l’avance. Les contrôles de terrain de base ne remplacent ni les essais techniques spécialisés ni une certification officielle.",
+    "Packaging & Industrial Supplies": "Emballages et fournitures industrielles",
+    "Packaging materials, industrial packaging, consumables and essential business supplies. Product specifications, quality consistency and delivery requirements matter.":
+      "Matériaux d’emballage, emballages industriels, consommables et fournitures professionnelles essentielles. Les spécifications, la régularité de la qualité et les exigences de livraison comptent.",
+    "Our initial commercial focus is the Africa–Türkiye trade corridor, connecting businesses and opportunities across both markets. China remains part of our broader international trade context.":
+      "Notre priorité commerciale initiale est le corridor commercial Afrique–Türkiye, qui relie les entreprises et les opportunités des deux marchés. La Chine reste présente dans notre contexte commercial international plus large.",
+    "How coordination works, a concept view.": "Comment fonctionne la coordination : vue conceptuelle.",
+    "GlobxLink is a coordination service. This illustrative concept shows one way to organise the work; it is not a live product or trade record.":
+      "GlobxLink est un service de coordination. Ce concept illustratif présente une façon d’organiser le travail ; il ne s’agit ni d’un produit actif ni d’un dossier commercial réel.",
+    "Clarify requirements, roles and responsibilities.": "Clarifier les exigences, les rôles et les responsabilités.",
+    "Organise milestones and execution checkpoints.": "Organiser les jalons et les points de contrôle de l’exécution.",
+    "Keep progress, inspection findings and documentation visible.": "Rendre visibles l’avancement, les résultats d’inspection et les documents.",
+    "Identify discrepancies and coordinate follow-up actions.": "Identifier les écarts et coordonner les actions de suivi.",
+    "Illustrative coordination flow": "Flux de coordination illustratif",
+    Illustrative: "Illustratif",
+    "Requirements and responsibilities": "Exigences et responsabilités",
+    "Counterparty checks and available evidence": "Contrôles des contreparties et éléments disponibles",
+    Review: "Examen",
+    "Agreed milestones": "Jalons convenus",
+    "Execution and inspection checkpoints": "Points de contrôle d’exécution et d’inspection",
+    Structure: "Structuration",
+    "Progress and follow-up": "Avancement et suivi",
+    "Discrepancies and documentation": "Écarts et documentation",
+    Coordinate: "Coordination",
+    "Not a live product or trade record": "Ni produit actif ni dossier commercial réel",
+    "Planned role · Recruitment": "Poste prévu · Recrutement",
+    "Operations / Field Coordination": "Opérations / Coordination terrain",
+    "Containers and checklist representing operations coordination":
+      "Conteneurs et liste de contrôle illustrant la coordination opérationnelle",
+    "Supports supplier follow-up, field coordination, execution monitoring and on-the-ground operational activities.":
+      "Assure le suivi des fournisseurs, la coordination terrain, le suivi de l’exécution et les activités opérationnelles sur place.",
+    "We help businesses move from commercial agreement to actual execution with greater structure, visibility and follow-through.":
+      "Nous aidons les entreprises à passer de l’accord commercial à l’exécution concrète avec davantage de structure, de visibilité et de suivi.",
+    "Before execution, we help clarify requirements, assess counterparties and structure commitments. During execution, we monitor progress, conduct basic physical checks and coordinate specialised inspections.":
+      "Avant l’exécution, nous aidons à clarifier les exigences, évaluer les contreparties et structurer les engagements. Pendant l’exécution, nous suivons l’avancement, réalisons des contrôles physiques de base et coordonnons des inspections spécialisées.",
+    "When something goes wrong, we document discrepancies, communicate with the relevant parties and coordinate follow-up actions. Our service is focused on practical execution support, not a future software platform.":
+      "En cas de problème, nous documentons les écarts, communiquons avec les parties concernées et coordonnons le suivi. Notre service privilégie un accompagnement opérationnel concret, et non une future plateforme logicielle.",
+    "GlobxLink provides cross-border trade coordination and execution support. It is not a marketplace, freight forwarder, customs broker or payment provider, and does not guarantee supplier performance, product quality, delivery or transaction outcomes. Basic physical checks are conducted within an agreed scope; specialised technical inspections are coordinated through qualified partners. GlobxLink does not hold or move funds.":
+      "GlobxLink fournit des services de coordination commerciale transfrontalière et d’accompagnement à l’exécution. Ce n’est ni une place de marché, ni un transitaire, ni un commissionnaire en douane, ni un prestataire de paiement, et l’entreprise ne garantit ni la performance des fournisseurs, ni la qualité des produits, ni la livraison, ni les résultats des transactions. Les contrôles physiques de base sont réalisés dans un périmètre convenu ; les inspections techniques spécialisées sont coordonnées par des partenaires qualifiés. GlobxLink ne détient ni ne transfère de fonds.",
+    "Cross-border trade coordination and execution support, bringing structure, visibility and follow-through to the space between agreement and delivery.":
+      "Coordination commerciale transfrontalière et accompagnement de l’exécution, pour structurer, rendre visible et suivre les opérations entre l’accord et la livraison.",
+    "A structured review of one cross-border transaction, including:":
+      "Examen structuré d’une transaction transfrontalière, comprenant :",
+    "Corridor and market considerations.": "Considérations relatives au corridor et au marché.",
+    "Product specifications and requirements.": "Spécifications et exigences du produit.",
+    "Counterparty status and available evidence.": "Situation des contreparties et éléments disponibles.",
+    "Commercial terms and responsibilities.": "Conditions commerciales et responsabilités.",
+    "Documentation and payment milestones.": "Documentation et jalons de paiement.",
+    "Production, inspection and shipment checkpoints.": "Points de contrôle de production, d’inspection et d’expédition.",
+    "Potential execution risks and unresolved dependencies.": "Risques d’exécution potentiels et dépendances non résolues.",
+    "A structured assessment showing:": "Évaluation structurée présentant :",
+    "What has been confirmed.": "Les éléments confirmés.",
+    "What remains unconfirmed.": "Les éléments restant à confirmer.",
+    "What could expose the transaction to delays or execution problems.":
+      "Les éléments susceptibles d’entraîner des retards ou des problèmes d’exécution.",
+    "Which requirements and commitments need attention.": "Les exigences et engagements nécessitant une attention particulière.",
+    "What milestones and checkpoints should be monitored.": "Les jalons et points de contrôle à suivre.",
+    "Recommended next steps, including potential inspection and coordination support where appropriate.":
+      "Les prochaines étapes recommandées, y compris, si nécessaire, un soutien en inspection et en coordination.",
+    "Ongoing Execution Support": "Accompagnement continu de l’exécution",
+    "Depending on the agreed scope, GlobxLink can monitor transaction milestones, conduct basic physical checks, coordinate specialised technical inspections through qualified partners, document discrepancies and coordinate follow-up actions.":
+      "Selon le périmètre convenu, GlobxLink peut suivre les jalons de la transaction, réaliser des contrôles physiques de base, coordonner des inspections techniques spécialisées avec des partenaires qualifiés, documenter les écarts et coordonner les actions de suivi.",
+    "GlobxLink provides cross-border trade coordination and execution support. It does not hold or move funds, clear customs, or forward freight, and does not guarantee supplier performance, product quality, delivery, or transaction outcomes. Basic physical checks follow an agreed scope; specialised technical inspections are coordinated through qualified partners.":
+      "GlobxLink fournit des services de coordination commerciale transfrontalière et d’accompagnement à l’exécution. L’entreprise ne détient ni ne transfère de fonds, ne dédouane pas et n’organise pas le transport de marchandises ; elle ne garantit ni la performance des fournisseurs, ni la qualité des produits, ni la livraison, ni les résultats des transactions. Les contrôles physiques de base suivent un périmètre convenu ; les inspections techniques spécialisées sont coordonnées par des partenaires qualifiés.",
+    "Contact ↗": "Contact ↗",
+  });
+
+  Object.assign(copy.tr, {
+    "Meet the team": "Ekiple Tanışın",
+    "The people behind GlobxLink.": "GlobxLink'in arkasındaki insanlar.",
+    "Bringing together trade expertise, technology, and creative communication to make cross-border coordination clearer.":
+      "Sınır ötesi koordinasyonu daha anlaşılır kılmak için ticaret uzmanlığını, teknolojiyi ve yaratıcı iletişimi bir araya getiriyoruz.",
+    "Founder with 6+ years coordinating transactions between African and Turkish businesses. Deep corridor knowledge in supplier coordination, transaction execution, and on-the-ground trade support across language, culture, and operational complexity.":
+      "Afrika ve Türkiye'deki işletmeler arasında işlemleri koordine etme konusunda 6 yılı aşkın deneyime sahip kurucu. Dil, kültür ve operasyonel zorluklar boyunca tedarikçi koordinasyonu, işlem yürütme ve sahada ticaret desteği konusunda derin koridor bilgisi.",
+    "Co-Founder": "Kurucu Ortak",
+    "Product engineer leading the GlobxLink coordination workspace, payment milestones, escrow execution logic, and partner integrations. Background in financial services systems where settlement evidence is non-negotiable.":
+      "GlobxLink koordinasyon çalışma alanına, ödeme kilometre taşlarına, emanet yürütme mantığına ve iş ortağı entegrasyonlarına liderlik eden ürün mühendisi. Mutabakat kanıtlarının vazgeçilmez olduğu finansal hizmet sistemlerinde deneyim sahibidir.",
+    "Systems engineer responsible for verification infrastructure and operational tooling. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to bet money on.":
+      "Doğrulama altyapısından ve operasyon araçlarından sorumlu sistem mühendisi. Karşı taraf kontrollerini, belge yönlendirmesini ve denetim izlerini güvenilir kılan temel teknik çalışmalara odaklanır.",
+    "Art Director & Creative Designer": "Sanat Yönetmeni ve Yaratıcı Tasarımcı",
+    "Nour Eddin Hamada": "Nour Eddin Hamada",
+    "Art director and multidisciplinary designer with 7+ years of experience in visual identity, digital design, motion, and AI-assisted creative production.":
+      "Görsel kimlik, dijital tasarım, hareketli grafikler ve yapay zekâ destekli yaratıcı üretim alanlarında 7 yılı aşkın deneyime sahip sanat yönetmeni ve çok disiplinli tasarımcı.",
+    "Nour Eddin Hamada — updated personal portrait": "Nour Eddin Hamada — güncel portre fotoğrafı",
+    "Nour Eddin Hamada social links": "Nour Eddin Hamada sosyal bağlantıları",
+    "Nour Eddin Hamada — Website": "Nour Eddin Hamada — Web sitesi",
+    "Nour Eddin Hamada — Instagram": "Nour Eddin Hamada — Instagram",
+    "Nour Eddin Hamada — LinkedIn": "Nour Eddin Hamada — LinkedIn",
+    "Personal website": "Kişisel web sitesi",
+  });
+
+  Object.assign(copy.fr, {
+    "Meet the team": "Rencontrez l’équipe",
+    "The people behind GlobxLink.": "Les personnes derrière GlobxLink.",
+    "Bringing together trade expertise, technology, and creative communication to make cross-border coordination clearer.":
+      "Nous réunissons expertise commerciale, technologie et communication créative pour rendre la coordination transfrontalière plus claire.",
+    "Founder with 6+ years coordinating transactions between African and Turkish businesses. Deep corridor knowledge in supplier coordination, transaction execution, and on-the-ground trade support across language, culture, and operational complexity.":
+      "Fondateur avec plus de six ans d’expérience dans la coordination de transactions entre des entreprises africaines et turques. Solide connaissance du corridor, de la coordination des fournisseurs, de l’exécution des transactions et du soutien commercial sur le terrain, au-delà des différences linguistiques, culturelles et opérationnelles.",
+    "Co-Founder": "Co-fondateur",
+    "Product engineer leading the GlobxLink coordination workspace, payment milestones, escrow execution logic, and partner integrations. Background in financial services systems where settlement evidence is non-negotiable.":
+      "Ingénieur produit responsable de l’espace de coordination GlobxLink, des jalons de paiement, de la logique d’exécution du séquestre et des intégrations partenaires. Expérience des systèmes de services financiers où les preuves de règlement sont indispensables.",
+    "Systems engineer responsible for verification infrastructure and operational tooling. Focus on the underlying technical work that makes counterparty checks, document routing, and audit trails reliable enough to bet money on.":
+      "Ingénieur systèmes responsable de l’infrastructure de vérification et des outils opérationnels. Il se concentre sur le socle technique qui fiabilise les contrôles des contreparties, l’acheminement des documents et les pistes d’audit.",
+    "Art Director & Creative Designer": "Directeur artistique et designer créatif",
+    "Nour Eddin Hamada": "Nour Eddin Hamada",
+    "Art director and multidisciplinary designer with 7+ years of experience in visual identity, digital design, motion, and AI-assisted creative production.":
+      "Directeur artistique et designer pluridisciplinaire avec plus de sept ans d’expérience en identité visuelle, design numérique, animation et création assistée par l’IA.",
+    "Nour Eddin Hamada — updated personal portrait": "Nour Eddin Hamada — portrait personnel récent",
+    "Nour Eddin Hamada social links": "Liens sociaux de Nour Eddin Hamada",
+    "Nour Eddin Hamada — Website": "Nour Eddin Hamada — Site web",
+    "Nour Eddin Hamada — Instagram": "Nour Eddin Hamada — Instagram",
+    "Nour Eddin Hamada — LinkedIn": "Nour Eddin Hamada — LinkedIn",
+    "Personal website": "Site personnel",
+  });
+
   window.gxlLandingCopy = copy;
 
   let languageControl = document.getElementById("gxl-language");
@@ -521,9 +815,9 @@
     }
 
     const descriptions = {
-      en: "GlobxLink coordinates international trade through a Trade Readiness & Coordination Assessment and Provider Request service.",
-      tr: "GlobxLink, Ticaret Hazırlık ve Koordinasyon Değerlendirmesi ile Sağlayıcı Talebi hizmetleri aracılığıyla sınır ötesi ticareti koordine eder.",
-      fr: "GlobxLink coordonne le commerce transfrontalier grâce à l’évaluation de préparation commerciale et aux demandes de prestataires.",
+      en: "Cross-border trade coordination and execution support, bringing structure, visibility and follow-through to the space between agreement and delivery.",
+      tr: "Anlaşma ile teslimat arasındaki sürece yapı, görünürlük ve takip kazandıran sınır ötesi ticaret koordinasyonu ve uygulama desteği.",
+      fr: "Coordination commerciale transfrontalière et accompagnement de l’exécution, pour structurer, rendre visible et suivre les opérations entre l’accord et la livraison.",
     };
     if (location.pathname === "/") {
       const description = descriptions[language];

@@ -47,8 +47,25 @@ let rim=ctx.createRadialGradient(cx-r*.28,cy-r*.35,r*.18,cx,cy,r);rim.addColorSt
 /* Decorative orbital halo removed by request. */
 }
 function globeCanvasHandler(kind){const cvs=document.getElementById('canvas-'+kind),s=GLOBE_STATE[kind];cvs.addEventListener('pointerdown',e=>{s.drag=true;s.moved=0;s.prevX=e.clientX;s.prevY=e.clientY;cvs.setPointerCapture(e.pointerId)});cvs.addEventListener('pointermove',e=>{const rect=cvs.getBoundingClientRect();if(s.drag){let dx=e.clientX-s.prevX,dy=e.clientY-s.prevY;s.prevX=e.clientX;s.prevY=e.clientY;s.moved+=Math.abs(dx)+Math.abs(dy);s.lambda=(s.lambda-dx*.36/s.zoom+720)%360;s.phi=Math.max(-80,Math.min(80,s.phi+dy*.3/s.zoom));return}if(activeGlobe!==kind)return;const R=Math.min(rect.width*.43,rect.height*.425)*s.zoom;const p=unproject(e.clientX-rect.left,e.clientY-rect.top,s,R,rect.width/2,rect.height/2);if(!p){tooltip.style.display='none';return}const n=hitCountry(p.lon,p.lat);if(n){tooltip.textContent=window.gxlCountryName?window.gxlCountryName(n):n;tooltip.style.display='block';tooltip.style.left=Math.min(rect.width-110,e.clientX-rect.left+12)+'px';tooltip.style.top=(e.clientY-rect.top+14)+'px'}else tooltip.style.display='none'});cvs.addEventListener('pointerup',()=>{s.drag=false});cvs.addEventListener('pointercancel',()=>{s.drag=false});cvs.addEventListener('pointerleave',()=>{s.drag=false;tooltip.style.display='none'});cvs.addEventListener('wheel',e=>{e.preventDefault();s.zoom=Math.max(.7,Math.min(1.62,s.zoom*(e.deltaY>0?.93:1.07)))},{passive:false});cvs.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')s.lambda+=8;else if(e.key==='ArrowRight')s.lambda-=8;else if(e.key==='ArrowUp')s.phi+=8;else if(e.key==='ArrowDown')s.phi-=8;else return;e.preventDefault()})}
-globeCanvasHandler('tactical');globeCanvasHandler('interactive');
-const switchTabs=[...document.querySelectorAll('.globe-tab')];function switchGlobe(kind){if(kind===activeGlobe)return;activeGlobe=kind;switchTabs.forEach(b=>b.setAttribute('aria-selected',String(b.dataset.globe===kind)));document.querySelectorAll('.globe-screen').forEach(el=>el.classList.toggle('current',el.id==='globe-'+kind));document.getElementById('globeSource').textContent=kind==='tactical'?'Tactical':'Interactive';tooltip.style.display='none';drawGlobe(kind);window.gxlUpdateDynamic?.()}switchTabs.forEach(b=>b.addEventListener('click',()=>switchGlobe(b.dataset.globe)));
+globeCanvasHandler('tactical');
+globeCanvasHandler('interactive');
+const switchTabs=[...document.querySelectorAll('.globe-tab')];
+function switchGlobe(kind){
+ if(kind===activeGlobe)return;
+ activeGlobe=kind;
+ switchTabs.forEach(button=>button.setAttribute('aria-selected',String(button.dataset.globe===kind)));
+ document.querySelectorAll('.globe-screen').forEach(screen=>{
+  const isActive=screen.id==='globe-'+kind;
+  screen.classList.toggle('current',isActive);
+  screen.setAttribute('aria-hidden',String(!isActive));
+ });
+ document.getElementById('globeSource').textContent=kind==='tactical'?'Tactical':'Interactive';
+ tooltip.style.display='none';
+ drawGlobe(kind);
+ window.gxlUpdateDynamic?.();
+}
+switchTabs.forEach(button=>button.addEventListener('click',()=>switchGlobe(button.dataset.globe)));
+drawGlobe('interactive');
 const pauseButton=document.getElementById('globePause');function updatePause(){pauseButton.textContent=globeRunning?'Ⅱ':'▶';pauseButton.title=globeRunning?'Pause rotation':'Resume rotation';pauseButton.setAttribute('aria-label',pauseButton.title);window.gxlUpdateDynamic?.()}pauseButton.addEventListener('click',()=>{globeRunning=!globeRunning;updatePause()});updatePause();
 let previous=0;let lastPaint=0;let frame=0;let globeVisible=true;const viewport=document.querySelector('.globe-viewport');new IntersectionObserver(([e])=>{globeVisible=e.isIntersecting},{threshold:0}).observe(viewport);
 function tick(now){const elapsed=Math.min((now-previous)/1000||0,.06);previous=now;if(globeVisible&&!document.hidden){if(globeRunning&&!GLOBE_STATE[activeGlobe].drag){GLOBE_STATE[activeGlobe].lambda+=elapsed*(activeGlobe==='tactical'?4.0:3.3)}if(now-lastPaint>48){lastPaint=now;drawGlobe(activeGlobe,now/1000)}}frame=requestAnimationFrame(tick)}requestAnimationFrame(tick);

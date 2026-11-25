@@ -5,12 +5,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "GlobxLink | The Middle of Trade",
   description:
-    "GlobxLink coordinates international trade through a Trade Readiness & Coordination Assessment and Provider Request service.",
+    "Cross-border trade coordination and execution support, bringing structure, visibility and follow-through to the space between agreement and delivery.",
   applicationName: "GlobxLink",
   openGraph: {
     title: "GlobxLink | The Middle of Trade",
     description:
-      "Practical coordination between agreement and delivery, focused initially on the Africa to Türkiye corridor.",
+      "Cross-border trade coordination and execution support, initially focused on the Africa–Türkiye corridor.",
     type: "website",
   },
 };

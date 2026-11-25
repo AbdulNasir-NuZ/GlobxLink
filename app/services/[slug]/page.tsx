@@ -10,7 +10,10 @@ type ServiceDetails = {
   who: string;
   problem: string;
   scope: string;
+  scopeItems?: string[];
   deliverables: string;
+  deliverableItems?: string[];
+  ongoingExecutionSupport?: string;
   process: string[];
   request: string;
   boundary: string;
@@ -26,9 +29,28 @@ const services: Record<string, ServiceDetails> = {
     problem:
       "Between agreement and delivery, requirements drift, documents lag, responsibilities blur, and changes do not reach everyone. Many of these problems are visible early if someone is looking for them.",
     scope:
-      "A structured review of one transaction: corridor and markets, product and specifications, counterparty status, commercial terms, documentation, milestones, and the main constraint most likely to delay or disrupt it.",
+      "A structured review of one cross-border transaction, including:",
+    scopeItems: [
+      "Corridor and market considerations.",
+      "Product specifications and requirements.",
+      "Counterparty status and available evidence.",
+      "Commercial terms and responsibilities.",
+      "Documentation and payment milestones.",
+      "Production, inspection and shipment checkpoints.",
+      "Potential execution risks and unresolved dependencies.",
+    ],
     deliverables:
-      "A clear read of what is confirmed, what is unconfirmed, and what is exposed; a prioritised list of what to address; and a defined next step, including, where it fits, moving into ongoing coordination.",
+      "A structured assessment showing:",
+    deliverableItems: [
+      "What has been confirmed.",
+      "What remains unconfirmed.",
+      "What could expose the transaction to delays or execution problems.",
+      "Which requirements and commitments need attention.",
+      "What milestones and checkpoints should be monitored.",
+      "Recommended next steps, including potential inspection and coordination support where appropriate.",
+    ],
+    ongoingExecutionSupport:
+      "Depending on the agreed scope, GlobxLink can monitor transaction milestones, conduct basic physical checks, coordinate specialised technical inspections through qualified partners, document discrepancies and coordinate follow-up actions.",
     process: [
       "Share a short brief on one transaction",
       "Complete a structured assessment",
@@ -38,7 +60,7 @@ const services: Record<string, ServiceDetails> = {
     request:
       "Message “ASSESSMENT” with your corridor and product, or use the enquiry form and select Trade Readiness Assessment.",
     boundary:
-      "GlobxLink coordinates, it does not hold or move funds, clear customs, or forward freight, and it does not guarantee outcomes. Scope and any further work are agreed before commitments are made.",
+      "GlobxLink provides cross-border trade coordination and execution support. It does not hold or move funds, clear customs, or forward freight, and does not guarantee supplier performance, product quality, delivery, or transaction outcomes. Basic physical checks follow an agreed scope; specialised technical inspections are coordinated through qualified partners.",
   },
   "provider-request": {
     title: "Find a Provider (Provider Request)",
@@ -113,11 +135,31 @@ export default async function ServiceDetailPage({
         <section>
           <h2>Scope</h2>
           <p>{service.scope}</p>
+          {service.scopeItems && (
+            <ul>
+              {service.scopeItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          )}
         </section>
         <section>
           <h2>Deliverables</h2>
           <p>{service.deliverables}</p>
+          {service.deliverableItems && (
+            <ul>
+              {service.deliverableItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          )}
         </section>
+        {service.ongoingExecutionSupport && (
+          <section>
+            <h2>Ongoing Execution Support</h2>
+            <p>{service.ongoingExecutionSupport}</p>
+          </section>
+        )}
         <section className="service-process">
           <h2>Process</h2>
           <ol>

@@ -13,7 +13,7 @@ const services = [
     slug: "trade-readiness-assessment",
     title: "Trade Readiness & Coordination Assessment",
     description:
-      "A structured review of one international transaction before you commit further.",
+      "A structured review of your transaction's requirements, counterparties, commitments and potential execution risks — with a path into ongoing monitoring and coordination where needed.",
     label: "Recommended · Start here",
   },
   {
@@ -34,9 +34,19 @@ export default function ServicesPage() {
         <p className="content-eyebrow">GlobxLink · Services</p>
         <h1>Two ways in. One coordinated path.</h1>
         <p>
-          Most trade work starts with one of two needs: getting a transaction
-          ready to run, or finding the right provider. Both can lead to
-          coordinated execution through the middle of trade.
+          Most cross-border trade starts with one of two needs: finding a
+          suitable provider or making an existing transaction ready for
+          execution.
+        </p>
+        <p>
+          GlobxLink supports both. We help businesses assess potential providers,
+          structure transaction requirements, monitor agreed commitments,
+          coordinate inspections where needed, and address execution issues.
+        </p>
+        <p>
+          Start with a Trade Readiness & Coordination Assessment if you already
+          have a transaction. Choose a Provider Request if you need help
+          identifying suitable providers.
         </p>
       </section>
       <section className="content-card-grid" aria-label="GlobxLink services">
@@ -50,9 +60,12 @@ export default function ServicesPage() {
         ))}
       </section>
       <p className="content-boundary">
-        GlobxLink coordinates international trade. It does not hold or move
-        funds, clear customs, forward freight, or guarantee outcomes. Scope and
-        any further work are agreed before commitments are made.
+        GlobxLink provides cross-border trade coordination and execution
+        support. It is not a marketplace, freight forwarder, customs broker or
+        payment provider, and does not guarantee supplier performance, product
+        quality, delivery or transaction outcomes. It does not hold or move
+        funds. Basic physical checks follow an agreed scope; specialised
+        technical inspections are coordinated through qualified partners.
       </p>
       </main>
     </>

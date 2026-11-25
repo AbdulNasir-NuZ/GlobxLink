@@ -7,11 +7,9 @@ import LanguageSwitcher from "./language-switcher";
 
 const links = [
   { label: "Home", href: "/#home", sectionId: "home" },
-  { label: "Solutions", href: "/#solutions", sectionId: "solutions" },
+  { label: "Services", href: "/#services", sectionId: "services" },
   { label: "Corridors", href: "/#middle-of-trade", sectionId: "middle-of-trade" },
-  { label: "Platform", href: "/#platform", sectionId: "platform" },
-  { label: "How It Works", href: "/#how", sectionId: "how" },
-  { label: "Founders", href: "/#founders", sectionId: "founders" },
+  { label: "Insights", href: "/#insights", sectionId: "insights" },
   { label: "About", href: "/#about", sectionId: "about" },
   { label: "Contact", href: "/#contact", sectionId: "contact" },
 ];
@@ -119,7 +117,7 @@ export default function SiteHeader({
             />
           </Link>
           <nav aria-label="Main navigation" className="nav">
-            {links.map((link) => {
+            {links.filter((link) => link.sectionId !== "contact").map((link) => {
               const isActive =
                 pathname === "/" && activeSection === link.sectionId;
               const isSelected = isActive && !menuOpen;
@@ -137,8 +135,16 @@ export default function SiteHeader({
           </nav>
           <div className="header-cta">
             {showLanguage && <LanguageSwitcher />}
-            <Link className="btn primary small" href="/#contact">
-              Book a Call ↗
+            <Link
+              aria-current={
+                pathname === "/" && activeSection === "contact"
+                  ? "location"
+                  : undefined
+              }
+              className="btn primary small"
+              href="/#contact"
+            >
+              Contact ↗
             </Link>
             <button
               aria-controls="site-nav-panel"
