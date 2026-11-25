@@ -256,11 +256,6 @@ body::-webkit-scrollbar {
   scroll-margin-top: 0;
 }
 
-.platform-grid {
-  display: block;
-  max-width: 960px;
-}
-
 .site-header {
   position: fixed !important;
   inset: 0 0 auto;
@@ -334,44 +329,87 @@ body:has(.site-nav-panel[data-open="true"]) {
   overflow: hidden;
 }
 
-.site-header .nav a[aria-current="location"] {
-  background: #f8fcff;
-  color: #0b296c;
+.site-header .nav a {
+  flex: 0 1 auto;
+  width: auto;
+  padding: 10px 7px !important;
+  font-size: 11px !important;
+  white-space: nowrap;
+  position: relative !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: rgba(231, 240, 250, 0.83) !important;
+  text-decoration: none !important;
+  transform: none !important;
+  transition: color 200ms ease, opacity 200ms ease !important;
 }
 
-.site-header .nav a {
-  flex: 0 0 88px;
-  width: 88px;
-  padding: 10px 4px !important;
-  font-size: 10px !important;
-  text-align: center;
-  white-space: nowrap;
-  position: relative;
+.site-header .nav a::after {
+  position: absolute;
+  right: 12px;
+  bottom: 3px;
+  left: 12px;
+  height: 2px;
+  border-radius: 2px;
+  background: #e5e7eb;
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  transform: scaleX(0.15);
+  transform-origin: center;
   transition:
-    background-color 180ms ease,
-    color 180ms ease,
-    box-shadow 180ms ease,
-    transform 180ms ease;
+    transform 240ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    opacity 200ms ease,
+    background-color 200ms ease;
+}
+
+.site-header .nav a.active {
+  color: #fff !important;
+}
+
+.site-header .nav a.active::after {
+  background: #91d9ff;
+  opacity: 1;
+  transform: scaleX(0.65);
 }
 
 .site-header .nav a:hover,
 .site-header .nav a:focus-visible {
-  background: #ffffff14;
-  color: #fff;
-  box-shadow: none;
-  transform: none;
+  background: transparent !important;
+  color: #fff !important;
 }
 
-.site-header .nav a[aria-current="location"]:hover,
-.site-header .nav a[aria-current="location"]:focus-visible {
-  background: #fff;
-  color: #0b296c;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.15);
+.site-header .nav a:hover::after,
+.site-header .nav a:focus-visible::after {
+  background: #e5e7eb;
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.site-header .nav a:focus:not(:focus-visible) {
+  outline: 0 !important;
 }
 
 .site-header .nav a:focus-visible {
-  outline: 2px solid #9ad9ff;
-  outline-offset: 3px;
+  outline: 1px solid #a8d5f2;
+  outline-offset: 5px;
+}
+
+@supports selector(.nav:has(a:hover)) {
+  .site-header .nav:has(a:hover) a.active:not(:hover)::after,
+  .site-header .nav:has(a:focus-visible) a.active:not(:focus-visible)::after {
+    opacity: 0;
+    transform: scaleX(0.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-header .nav a,
+  .site-header .nav a::after {
+    transition: none !important;
+  }
 }
 
 .industry-media,

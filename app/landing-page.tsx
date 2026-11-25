@@ -793,6 +793,42 @@ export function LandingPage() {
               </p>
             </div>
           </div>
+          <div className={"workflow-ui reveal"} style={{"--delay": "100ms"} as CSSProperties}>
+            <header>
+              <strong>{"Trade Readiness Workspace"}</strong>
+              <span className={"concept-pill"}>{"Concept preview"}</span>
+            </header>
+            <div className={"workspace-row"}>
+              <span className={"mark"}>{"1"}</span>
+              <div>
+                <strong>{"Counterparty verification"}</strong>
+                <br />
+                <small>{"Evidence and identity review"}</small>
+              </div>
+              <span className={"concept-pill"}>{"Verified"}</span>
+            </div>
+            <div className={"workspace-row"}>
+              <span className={"mark"}>{"2"}</span>
+              <div>
+                <strong>{"Terms and milestones"}</strong>
+                <br />
+                <small>{"Responsibilities and checkpoints"}</small>
+              </div>
+              <span className={"concept-pill"}>{"Structured"}</span>
+            </div>
+            <div className={"workspace-row"}>
+              <span className={"mark"}>{"3"}</span>
+              <div>
+                <strong>{"Execution coordination"}</strong>
+                <br />
+                <small>{"Progress, documents, and follow-up"}</small>
+              </div>
+              <span className={"concept-pill"}>{"Tracking"}</span>
+            </div>
+            <footer>
+              {"Illustrative only · A coordination concept, not a live trade record"}
+            </footer>
+          </div>
         </div>
       </section>
       <section

@@ -5,9 +5,6 @@ const GLOBE_LINKS=[[0,6],[0,1],[1,4],[4,3],[3,2],[2,13],[2,8],[8,7],[7,5],[5,6],
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
 // Navigation is one-page only: smooth anchored scrolling and scroll-position highlighting.
 document.querySelectorAll('.mobile-nav a').forEach(a=>a.addEventListener('click',closeMenu));
-const navigation=document.querySelectorAll('.nav a');
-const sections=[...document.querySelectorAll('main section[id]')];
-const navObserver=new IntersectionObserver(entries=>{let active=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(active){navigation.forEach(a=>a.classList.toggle('active',a.hash==='#'+active.target.id))}},{rootMargin:'-90px 0px -52% 0px',threshold:[0,.05,.2,.5]});sections.forEach(s=>navObserver.observe(s));
 if(!reduced){document.body.classList.add('motion-ready');const obs=new IntersectionObserver(entries=>{for(const x of entries)if(x.isIntersecting){x.target.classList.add('visible');obs.unobserve(x.target)}},{threshold:.10,rootMargin:'0px 0px -25px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el))}
 // Build email draft but do not assume a recipient or send a message.
 const inquiryForm=document.getElementById('inquiry');if(inquiryForm&&!inquiryForm.hasAttribute('data-local-draft'))inquiryForm.addEventListener('submit',e=>{e.preventDefault();const d=new FormData(e.target);const terms=window.gxlEmailTerms?.()||['Name','Email','Inquiry'];const body=`${terms[0]}: ${d.get('name')}\n${terms[1]}: ${d.get('email')}\n${terms[2]}: ${d.get('topic')}\n\n${d.get('message')}`;location.href=`mailto:?subject=${encodeURIComponent('GlobxLink, '+d.get('topic'))}&body=${encodeURIComponent(body)}`});

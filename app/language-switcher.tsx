@@ -59,10 +59,47 @@ export default function LanguageSwitcher() {
     if (!(select instanceof HTMLSelectElement)) {
       throw new Error("Website language control is unavailable.");
     }
+
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const headerHeight =
+      Number.parseFloat(
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--header-h",
+        ),
+      ) || 0;
+    const sectionMarker = scrollY + headerHeight + 24;
+    const sections = Array.from(
+      document.querySelectorAll<HTMLElement>("main > section[id]"),
+    );
+    const currentSection = sections.reduce<HTMLElement | null>(
+      (active, section) =>
+        section.offsetTop <= sectionMarker ? section : active,
+      null,
+    );
+    const sectionOffset = currentSection
+      ? scrollY - currentSection.offsetTop
+      : null;
+
     select.value = code;
     select.dispatchEvent(new Event("change", { bubbles: true }));
     setLanguage(code);
     setIsOpen(false);
+
+    window.requestAnimationFrame(() => {
+      const targetSection = currentSection
+        ? document.getElementById(currentSection.id)
+        : null;
+      const targetY =
+        targetSection && sectionOffset !== null
+          ? targetSection.offsetTop + sectionOffset
+          : scrollY;
+      const root = document.documentElement;
+      const previousScrollBehavior = root.style.scrollBehavior;
+      root.style.scrollBehavior = "auto";
+      window.scrollTo(scrollX, targetY);
+      root.style.scrollBehavior = previousScrollBehavior;
+    });
   }
 
   return (
